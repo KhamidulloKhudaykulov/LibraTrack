@@ -169,3 +169,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\o
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.genruntimeconfig.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\ref\RentalService.Api.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.sourcelink.json
