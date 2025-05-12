@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "P/FyG+n8p/LuSEHu+4NwzeMHYg3Vj5rfzOR6V/pqWOA=",
+  "Source": "RentalService.Api",
+  "BasePath": "_content/RentalService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

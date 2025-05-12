@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
+    "Method": "Post",
+    "RelativePath": "rents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RentalService.Application.UseCases.RentalRecords.Commands.GenerateRentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
+    "Method": "Close",
+    "RelativePath": "rents/close",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

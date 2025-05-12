@@ -1,0 +1,15 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\bin\Debug\net9.0\RentalService.Application.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\bin\Debug\net9.0\RentalService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\bin\Debug\net9.0\RentalService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\bin\Debug\net9.0\RentalService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\bin\Debug\net9.0\RentalService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalSe.D2EC71B6.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\refint\RentalService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\ref\RentalService.Application.dll

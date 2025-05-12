@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "NotificationService.Infrastructure.Grpc";
+
+service UserService{
+	rpc GetUserEmail (GetUserEmailRequest) returns (UserEmailResponse);
+}
+
+message GetUserEmailRequest {
+	string user_id = 1;
+}
+
+message UserEmailResponse {
+	string email = 1;
+}

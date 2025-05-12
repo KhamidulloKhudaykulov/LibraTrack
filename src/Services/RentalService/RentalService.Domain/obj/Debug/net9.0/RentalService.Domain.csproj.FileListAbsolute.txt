@@ -1,0 +1,12 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\bin\Debug\net9.0\RentalService.Domain.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\bin\Debug\net9.0\RentalService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\bin\Debug\net9.0\RentalService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\refint\RentalService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\RentalService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Domain\obj\Debug\net9.0\ref\RentalService.Domain.dll

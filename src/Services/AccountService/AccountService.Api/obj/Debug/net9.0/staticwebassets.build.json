@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+kery1FJWVheXwAkc5UuU4MVyeT2o8THk8wyzWU6w3Q=",
+  "Source": "AccountService.Api",
+  "BasePath": "_content/AccountService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

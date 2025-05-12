@@ -1,0 +1,17 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Infrastructure.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Infrastructure.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\refint\BookService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\ref\BookService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookServ.E10EE506.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Application.pdb

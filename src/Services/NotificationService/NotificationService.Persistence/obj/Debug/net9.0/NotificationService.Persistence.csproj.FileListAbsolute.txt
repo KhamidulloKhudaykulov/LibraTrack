@@ -1,0 +1,17 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Persistence.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Persistence.runtimeconfig.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Persistence.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\refint\NotificationService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.genruntimeconfig.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\ref\NotificationService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\Notifica.C8F44AC5.Up2Date

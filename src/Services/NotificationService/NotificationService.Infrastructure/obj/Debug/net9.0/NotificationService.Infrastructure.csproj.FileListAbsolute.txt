@@ -1,0 +1,17 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Infrastructure.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Infrastructure.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\Notifica.C5696791.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\refint\NotificationService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\ref\NotificationService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Application.pdb

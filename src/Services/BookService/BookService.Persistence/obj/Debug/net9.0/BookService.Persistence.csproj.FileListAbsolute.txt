@@ -1,0 +1,17 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Persistence.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Persistence.runtimeconfig.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Persistence.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\bin\Debug\net9.0\BookService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookServ.95A8AEE4.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\refint\BookService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.genruntimeconfig.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\ref\BookService.Persistence.dll

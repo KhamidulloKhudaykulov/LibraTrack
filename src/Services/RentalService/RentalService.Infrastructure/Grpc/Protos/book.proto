@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "RentalService.Infrastructure.Grpc";
+
+service BookService{
+	rpc GetBookName (GetBookNameRequest) returns (BookNameResponse);
+}
+
+message GetBookNameRequest {
+	string book_id = 1;
+}
+
+message BookNameResponse {
+	string bookname = 1;
+}

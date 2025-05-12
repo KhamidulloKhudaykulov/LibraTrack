@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JDTc7SsIxgA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuday\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\xuday\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\xuday\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

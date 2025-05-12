@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.infrastructure\\messagebroker\\accountservice\\consumers\\userregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.infrastructure\\messagebroker\\accountservice\\consumers\\userregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B6996A-B143-4DC9-9535-A0728A31D59B}|src\\Services\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\backgroundjobs\\usersoutboxmessagesjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\backgroundjobs\\usersoutboxmessagesjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A0B15C-84B2-4E58-BB74-BF61C3FDDFB1}|src\\Services\\NotificationService\\NotificationService.Application\\NotificationService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.application\\eventhandlers\\users\\userregistereddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A0B15C-84B2-4E58-BB74-BF61C3FDDFB1}|src\\Services\\NotificationService\\NotificationService.Application\\NotificationService.Application.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.application\\eventhandlers\\users\\userregistereddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0880C53-82F0-48BC-BC7C-03866C84F131}|src\\Services\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.domain\\events\\users\\userregistereddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0880C53-82F0-48BC-BC7C-03866C84F131}|src\\Services\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.domain\\events\\users\\userregistereddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0880C53-82F0-48BC-BC7C-03866C84F131}|src\\Services\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.domain\\events\\rentals\\rentcloseddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0880C53-82F0-48BC-BC7C-03866C84F131}|src\\Services\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.domain\\events\\rentals\\rentcloseddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFAEE91-87F9-49CA-A212-AD864B22D7F4}|src\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\notificationservice\\notificationservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AFAEE91-87F9-49CA-A212-AD864B22D7F4}|src\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj|solutionrelative:src\\services\\notificationservice\\notificationservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\producers\\usereventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\producers\\usereventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A166BA-75F8-459C-B5E1-2E444EE7B293}|src\\Services\\AccountService\\AccountService.Application\\AccountService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.application\\usecases\\users\\events\\userregistereddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A166BA-75F8-459C-B5E1-2E444EE7B293}|src\\Services\\AccountService\\AccountService.Application\\AccountService.Application.csproj|solutionrelative:src\\services\\accountservice\\accountservice.application\\usecases\\users\\events\\userregistereddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.persistence\\accountservice.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|solutionrelative:src\\services\\accountservice\\accountservice.persistence\\accountservice.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\configurations\\rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\configurations\\rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.persistence\\interceptors\\convertdomaineventstooutboxmessagesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|solutionrelative:src\\services\\accountservice\\accountservice.persistence\\interceptors\\convertdomaineventstooutboxmessagesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.persistence\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|solutionrelative:src\\services\\accountservice\\accountservice.persistence\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.infrastructure\\extensions\\backgroundjobextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersOutboxMessagesJob.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\BackgroundJobs\\UsersOutboxMessagesJob.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\BackgroundJobs\\UsersOutboxMessagesJob.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\BackgroundJobs\\UsersOutboxMessagesJob.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\BackgroundJobs\\UsersOutboxMessagesJob.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:43:50.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackgroundJobExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:19:31.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegisteredConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\MessageBroker\\AccountService\\Consumers\\UserRegisteredConsumer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\MessageBroker\\AccountService\\Consumers\\UserRegisteredConsumer.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\MessageBroker\\AccountService\\Consumers\\UserRegisteredConsumer.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\MessageBroker\\AccountService\\Consumers\\UserRegisteredConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:10:04.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:19:01.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:22:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BackgroundJobExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:10:28.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegisteredDomainEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Application\\EventHandlers\\Users\\UserRegisteredDomainEventHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Application\\EventHandlers\\Users\\UserRegisteredDomainEventHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Application\\EventHandlers\\Users\\UserRegisteredDomainEventHandler.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Application\\EventHandlers\\Users\\UserRegisteredDomainEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:20:01.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRegisteredDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Users\\UserRegisteredDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Users\\UserRegisteredDomainEvent.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Users\\UserRegisteredDomainEvent.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Users\\UserRegisteredDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:09:08.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RentClosedDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Rentals\\RentClosedDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Rentals\\RentClosedDomainEvent.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Rentals\\RentClosedDomainEvent.cs",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Domain\\Events\\Rentals\\RentClosedDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:08:49.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\NotificationService\\NotificationService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\NotificationService\\NotificationService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\NotificationService\\NotificationService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T06:08:05.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConvertDomainEventsToOutboxMessagesInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Interceptors\\ConvertDomainEventsToOutboxMessagesInterceptor.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Persistence\\Interceptors\\ConvertDomainEventsToOutboxMessagesInterceptor.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Interceptors\\ConvertDomainEventsToOutboxMessagesInterceptor.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Persistence\\Interceptors\\ConvertDomainEventsToOutboxMessagesInterceptor.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAD4vzAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:52:53.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserEventProducer.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:26:26.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RabbitMQSettings.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Configurations\\RabbitMQSettings.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Configurations\\RabbitMQSettings.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Configurations\\RabbitMQSettings.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Configurations\\RabbitMQSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:27:04.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRegisteredDomainEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Events\\UserRegisteredDomainEventHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Events\\UserRegisteredDomainEventHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Events\\UserRegisteredDomainEventHandler.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Events\\UserRegisteredDomainEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:44:26.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:41:37.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountService.Persistence",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T06:03:01.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:41:11.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T05:59:44.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Persistence\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\UnitOfWork.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Persistence\\UnitOfWork.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:42:20.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BackgroundJobExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\Extensions\\BackgroundJobExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:20:32.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250512051812_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250512051812_Initial.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:18:12.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

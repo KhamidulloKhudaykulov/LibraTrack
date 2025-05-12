@@ -1,0 +1,12 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\bin\Debug\net9.0\NotificationService.Domain.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\bin\Debug\net9.0\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\bin\Debug\net9.0\NotificationService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\refint\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\NotificationService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Domain\obj\Debug\net9.0\ref\NotificationService.Domain.dll

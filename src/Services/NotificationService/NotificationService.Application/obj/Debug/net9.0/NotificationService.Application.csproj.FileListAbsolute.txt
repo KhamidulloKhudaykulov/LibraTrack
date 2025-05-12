@@ -1,0 +1,15 @@
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\bin\Debug\net9.0\NotificationService.Application.deps.json
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\bin\Debug\net9.0\NotificationService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\bin\Debug\net9.0\NotificationService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\bin\Debug\net9.0\NotificationService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\bin\Debug\net9.0\NotificationService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\Notifica.DAFDC56B.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\refint\NotificationService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\NotificationService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Application\obj\Debug\net9.0\ref\NotificationService.Application.dll
