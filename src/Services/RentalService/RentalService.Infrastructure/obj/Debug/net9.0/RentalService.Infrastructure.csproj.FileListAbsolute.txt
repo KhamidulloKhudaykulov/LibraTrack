@@ -17,3 +17,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Infra
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Infrastructure\obj\Debug\net9.0\refint\RentalService.Infrastructure.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Infrastructure\obj\Debug\net9.0\RentalService.Infrastructure.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Infrastructure\obj\Debug\net9.0\ref\RentalService.Infrastructure.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Infrastructure\obj\Debug\net9.0\RentalService.Infrastructure.sourcelink.json

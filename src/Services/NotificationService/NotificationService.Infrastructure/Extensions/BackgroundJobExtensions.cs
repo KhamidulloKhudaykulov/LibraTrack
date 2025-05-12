@@ -19,17 +19,10 @@ public static class BackgroundJobExtensions
 
         app.Services
             .GetRequiredService<IRecurringJobManager>()
-            .AddOrUpdate<UserRegisteredConsumer>(
-                "rent-generated-consumer",
+            .AddOrUpdate<RentExpiringConsumer>(
+                "rent-expiring-consumer",
                 job => job.ConsumeAsync(),
-                "*/10 * * * * *");
-
-        //app.Services
-        //    .GetRequiredService<IRecurringJobManager>()
-        //    .AddOrUpdate<RentClosedConsumer>(
-        //        "rent-closed-consumer",
-        //        job => job.ConsumeAsync(),
-        //        "*/1 * * * *");
+                Cron.Daily());
 
         return app;
     }

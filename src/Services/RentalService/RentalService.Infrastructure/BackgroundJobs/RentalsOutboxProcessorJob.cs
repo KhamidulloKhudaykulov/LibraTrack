@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using RentalService.Application.Common;
+using RentalService.Domain.Entities;
 using RentalService.Domain.Events;
 using RentalService.Domain.Primitives;
 using RentalService.Infrastructure.MessageBroker.Messages;
@@ -70,5 +71,16 @@ public class RentalsOutboxProcessorJob : IRentalOutboxProcessorJob
         }
 
         await _context.SaveChangesAsync(token);
+    }
+
+    public async Task ProcessExpiringRents()
+    {
+        var rents = await _context
+            .Set<RentalRecord>()
+            .Where(r => r.EndDate.Date == DateTime.Today.AddDays(1) && !r.IsReturned)
+            .Select(r => new RentExpiredEventMessage { UserId = r.UserId, BookId = r.BookId, CloseDate = r.EndDate.Date })
+            .ToListAsync();
+
+        _rentalEventProducer.PublishExpiredRents(rents);
     }
 }

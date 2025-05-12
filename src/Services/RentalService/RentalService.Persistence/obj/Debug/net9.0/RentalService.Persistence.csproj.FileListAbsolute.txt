@@ -15,3 +15,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Persi
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Persistence\obj\Debug\net9.0\RentalService.Persistence.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Persistence\obj\Debug\net9.0\RentalService.Persistence.genruntimeconfig.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Persistence\obj\Debug\net9.0\ref\RentalService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Persistence\obj\Debug\net9.0\RentalService.Persistence.sourcelink.json

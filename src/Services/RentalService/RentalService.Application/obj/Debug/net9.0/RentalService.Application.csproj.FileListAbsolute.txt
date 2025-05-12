@@ -13,3 +13,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Appli
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\refint\RentalService.Application.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\ref\RentalService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Application\obj\Debug\net9.0\RentalService.Application.sourcelink.json

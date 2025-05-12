@@ -28,3 +28,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.App
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Application\obj\Debug\net9.0\refint\AccountService.Application.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Application\obj\Debug\net9.0\AccountService.Application.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Application\obj\Debug\net9.0\ref\AccountService.Application.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Application\obj\Debug\net9.0\AccountService.Application.sourcelink.json

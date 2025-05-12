@@ -15,3 +15,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persisten
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.genruntimeconfig.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\ref\BookService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Persistence\obj\Debug\net9.0\BookService.Persistence.sourcelink.json

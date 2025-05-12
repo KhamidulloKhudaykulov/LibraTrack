@@ -34,3 +34,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Inf
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Infrastructure\obj\Debug\net9.0\ref\AccountService.Infrastructure.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Infrastructure\bin\Debug\net9.0\AccountService.Persistence.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Infrastructure\bin\Debug\net9.0\AccountService.Persistence.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Infrastructure\obj\Debug\net9.0\AccountService.Infrastructure.sourcelink.json

@@ -38,6 +38,16 @@ public class UserEventProducer
                              body: body);
     }
 
+    public void PublishUserDeactivated(UserDeactivatedEventMessage userDeactivatedEventMessage)
+    {
+        var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userDeactivatedEventMessage));
+
+        _channel.BasicPublish(exchange: "",
+                             routingKey: _settings.Value.Queues["UserDeactivated"],
+                             basicProperties: null,
+                             body: body);
+    }
+
     public void Dispose()
     {
         _channel?.Close();

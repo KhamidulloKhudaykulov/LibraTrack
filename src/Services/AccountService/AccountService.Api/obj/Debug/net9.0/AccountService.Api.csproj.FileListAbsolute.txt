@@ -356,3 +356,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Api
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Api\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Api\bin\Debug\net9.0\Grpc.Net.Common.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Api\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Api\obj\Debug\net9.0\AccountService.Api.sourcelink.json

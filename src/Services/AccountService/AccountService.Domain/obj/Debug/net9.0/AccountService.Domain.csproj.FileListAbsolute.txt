@@ -22,3 +22,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Dom
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Domain\obj\Debug\net9.0\refint\AccountService.Domain.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Domain\obj\Debug\net9.0\AccountService.Domain.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Domain\obj\Debug\net9.0\ref\AccountService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Domain\obj\Debug\net9.0\AccountService.Domain.sourcelink.json

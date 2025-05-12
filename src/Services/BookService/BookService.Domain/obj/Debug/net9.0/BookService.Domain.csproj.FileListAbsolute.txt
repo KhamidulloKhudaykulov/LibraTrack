@@ -10,3 +10,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Domain\ob
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Domain\obj\Debug\net9.0\refint\BookService.Domain.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Domain\obj\Debug\net9.0\BookService.Domain.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Domain\obj\Debug\net9.0\ref\BookService.Domain.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Domain\obj\Debug\net9.0\BookService.Domain.sourcelink.json

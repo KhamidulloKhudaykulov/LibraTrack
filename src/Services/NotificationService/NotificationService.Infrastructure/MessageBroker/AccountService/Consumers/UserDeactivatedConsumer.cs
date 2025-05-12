@@ -1,32 +1,32 @@
-﻿using MediatR;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using RabbitMQ.Client.Events;
+using RabbitMQ.Client;
+using NotificationService.Infrastructure.MessageBroker.Configurations;
+using System.Text;
 using Newtonsoft.Json;
 using NotificationService.Domain.Events.Users;
-using NotificationService.Infrastructure.MessageBroker.Configurations;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
-using System.Text;
+using MediatR;
+using Microsoft.Extensions.Hosting;
 
 namespace NotificationService.Infrastructure.MessageBroker.AccountService.Consumers;
 
-public class UserRegisteredConsumer : BackgroundService
+public class UserDeactivatedConsumer : BackgroundService
 {
     private readonly IConnection _connection;
     private readonly IModel _channel;
-    private readonly EventingBasicConsumer _consumer;
     private readonly IServiceScopeFactory _scopeFactory;
 
     private readonly IOptions<RabbitMQSettiings> _settings;
     private readonly string _queueName;
+    private readonly EventingBasicConsumer _consumer;
 
-    public UserRegisteredConsumer(IServiceScopeFactory scopeFactory, IOptions<RabbitMQSettiings> settings)
+    public UserDeactivatedConsumer(IServiceScopeFactory scopeFactory, IOptions<RabbitMQSettiings> settings)
     {
         _scopeFactory = scopeFactory;
         _settings = settings;
 
-        _queueName = _settings.Value.Queues["UserRegistered"];
+        _queueName = _settings.Value.Queues["UserDeactivated"];
 
         var factory = new ConnectionFactory { HostName = _settings.Value.Host };
         _connection = factory.CreateConnection();
@@ -53,8 +53,8 @@ public class UserRegisteredConsumer : BackgroundService
 
             try
             {
-                var userRegisteredDomainEvent = JsonConvert.DeserializeObject<UserRegisteredDomainEvent>(message);
-                if (userRegisteredDomainEvent == null)
+                var userDeactivatedDomainEvent = JsonConvert.DeserializeObject<UserDeactivatedDomainEvent>(message);
+                if (userDeactivatedDomainEvent == null)
                 {
                     Console.WriteLine("Deserialization failed.");
                     _channel.BasicNack(ea.DeliveryTag, false, true);
@@ -65,7 +65,7 @@ public class UserRegisteredConsumer : BackgroundService
                 {
                     var publisher = scope.ServiceProvider.GetRequiredService<IPublisher>();
 
-                    await publisher.Publish((INotification)userRegisteredDomainEvent);
+                    await publisher.Publish((INotification)userDeactivatedDomainEvent);
                 }
 
                 _channel.BasicAck(ea.DeliveryTag, false);

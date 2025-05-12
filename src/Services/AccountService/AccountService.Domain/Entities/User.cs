@@ -51,5 +51,9 @@ public class User : Entity
     }
 
     public void ActiveUser() => UserStatus = UserStatus.Active;
-    public void BlockUser() => UserStatus = UserStatus.Blocked;
+    public void BlockUser()
+    {
+        UserStatus = UserStatus.Blocked;
+        AddDomainEvent(new UserDeactivatedDomainEvent(Id));
+    }
 }

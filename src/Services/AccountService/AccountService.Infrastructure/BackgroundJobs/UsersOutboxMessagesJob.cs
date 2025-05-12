@@ -56,6 +56,15 @@ public class UsersOutboxMessagesJob
                 });
             }
 
+            if (domainEvent is UserDeactivatedDomainEvent userDeactivatedDomainEvent)
+            {
+                await _publisher.Publish((INotification)userDeactivatedDomainEvent, token);
+                _userEventProducer.PublishUserDeactivated(new UserDeactivatedEventMessage
+                {
+                    UserId = userDeactivatedDomainEvent.UserId
+                });
+            }
+
             outboxMessage.ProcessedOnUtc = DateTime.UtcNow;
         }
 

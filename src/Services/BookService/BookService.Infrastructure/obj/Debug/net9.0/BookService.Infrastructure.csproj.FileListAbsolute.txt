@@ -15,3 +15,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastru
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookServ.E10EE506.Up2Date
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Application.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\bin\Debug\net9.0\BookService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Infrastructure\obj\Debug\net9.0\BookService.Infrastructure.sourcelink.json

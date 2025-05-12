@@ -166,3 +166,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationS
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Api\bin\Debug\net9.0\Grpc.Core.Api.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Api\bin\Debug\net9.0\Grpc.Net.Client.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Api\bin\Debug\net9.0\Grpc.Net.Common.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Api\obj\Debug\net9.0\NotificationService.Api.sourcelink.json

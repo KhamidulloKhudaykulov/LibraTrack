@@ -21,7 +21,11 @@ public static class DependencyInjection
         services.AddScoped<IBookServiceClient, BookServiceClient>();
 
         services.AddSingleton<RentGeneratedConsumer>();
+        services.AddSingleton<RentExpiringConsumer>();
         services.AddSingleton<UserRegisteredConsumer>();
+
+        services.AddHostedService<UserDeactivatedConsumer>();
+        services.AddHostedService<UserRegisteredConsumer>();
         //services.AddSingleton<RentClosedConsumer>();
 
         services.AddHangfire(config =>

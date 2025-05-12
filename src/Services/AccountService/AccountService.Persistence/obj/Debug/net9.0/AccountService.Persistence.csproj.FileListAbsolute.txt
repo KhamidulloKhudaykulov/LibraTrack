@@ -36,3 +36,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Per
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Persistence\obj\Debug\net9.0\AccountService.Persistence.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Persistence\obj\Debug\net9.0\AccountService.Persistence.genruntimeconfig.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Persistence\obj\Debug\net9.0\ref\AccountService.Persistence.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\AccountService\AccountService.Persistence\obj\Debug\net9.0\AccountService.Persistence.sourcelink.json

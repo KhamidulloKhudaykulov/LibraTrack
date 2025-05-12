@@ -15,3 +15,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationS
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\ref\NotificationService.Infrastructure.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Application.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\bin\Debug\net9.0\NotificationService.Application.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Infrastructure\obj\Debug\net9.0\NotificationService.Infrastructure.sourcelink.json

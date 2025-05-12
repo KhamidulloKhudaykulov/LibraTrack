@@ -13,3 +13,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Applicati
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Application\bin\Debug\net9.0\BookService.Domain.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Application\obj\Debug\net9.0\BookService.Application.csproj.AssemblyReference.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Application\obj\Debug\net9.0\BookServ.83B9E9C5.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Application\obj\Debug\net9.0\BookService.Application.sourcelink.json

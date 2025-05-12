@@ -55,4 +55,24 @@ public class RentalEventProducer
                              basicProperties: null,
                              body: body);
     }
+
+    public void PublishExpiredRents(List<RentExpiredEventMessage> rentEvents)
+    {
+        var factory = new ConnectionFactory() { HostName = _settings.Value.Host };
+        using var connection = factory.CreateConnection();
+        using var channel = connection.CreateModel();
+
+        channel.QueueDeclare(queue: _settings.Value.Queues["RentalExpiring"],
+                             durable: false,
+                             exclusive: false,
+                             autoDelete: false,
+                             arguments: null);
+
+        var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(rentEvents));
+
+        channel.BasicPublish(exchange: "",
+                             routingKey: _settings.Value.Queues["RentalExpiring"],
+                             basicProperties: null,
+                             body: body);
+    }
 }

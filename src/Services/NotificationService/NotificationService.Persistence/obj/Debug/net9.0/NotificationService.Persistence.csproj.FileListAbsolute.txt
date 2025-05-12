@@ -15,3 +15,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationS
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Domain.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\bin\Debug\net9.0\NotificationService.Domain.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\Notifica.C8F44AC5.Up2Date
+C:\Users\xuday\Desktop\LibraTrack\src\Services\NotificationService\NotificationService.Persistence\obj\Debug\net9.0\NotificationService.Persistence.sourcelink.json

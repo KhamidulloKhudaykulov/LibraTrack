@@ -21,7 +21,6 @@ public static class DependencyInjection
         services.AddScoped<IBookServiceClient, BookServiceClient>();
         services.AddScoped<IEmailService, EmailService>();
 
-        //services.AddScoped<IProcessOutboxMessagesJob, ProcessOutboxMessagesJob>();
         services.AddScoped<IRentalOutboxProcessorJob, RentalsOutboxProcessorJob>();
 
         services.Configure<RabbitMQSettiings>(

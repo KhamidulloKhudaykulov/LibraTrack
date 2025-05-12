@@ -150,3 +150,4 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Api\bin\D
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Api\bin\Debug\net9.0\Grpc.Net.Client.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Api\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Api\bin\Debug\net9.0\Grpc.Net.Common.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\BookService\BookService.Api\obj\Debug\net9.0\BookService.Api.sourcelink.json
