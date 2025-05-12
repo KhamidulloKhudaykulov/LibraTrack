@@ -12,16 +12,9 @@ public static class BackgroundJobExtensions
     {
         app.Services
             .GetRequiredService<IRecurringJobManager>()
-            .AddOrUpdate<RentGeneratedConsumer>(
-                "rent-generated-consumer",
-                job => job.ConsumeAsync(),
-                "*/10 * * * * *");
-
-        app.Services
-            .GetRequiredService<IRecurringJobManager>()
             .AddOrUpdate<RentExpiringConsumer>(
                 "rent-expiring-consumer",
-                job => job.ConsumeAsync(),
+                job => job.ConsumeAsync(CancellationToken.None),
                 Cron.Daily());
 
         return app;

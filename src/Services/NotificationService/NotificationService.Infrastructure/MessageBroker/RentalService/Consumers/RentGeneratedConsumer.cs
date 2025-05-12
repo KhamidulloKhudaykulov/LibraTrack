@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using NotificationService.Domain.Events.Rentals;
@@ -10,11 +11,12 @@ using System.Text;
 
 namespace NotificationService.Infrastructure.MessageBroker.RentalService.Consumers;
 
-public class RentGeneratedConsumer
+public class RentGeneratedConsumer : BackgroundService
 {
     private readonly IConnection _connection;
     private readonly IModel _channel;
     private readonly string _queueName;
+    private readonly EventingBasicConsumer _consumer;
     private readonly IOptions<RabbitMQSettiings> _settings;
 
     private readonly IServiceScopeFactory _serviceScopeFactory; // because RentGeneratedEventHandler is singleton
@@ -25,17 +27,18 @@ public class RentGeneratedConsumer
         _connection = factory.CreateConnection();
         _channel = _connection.CreateModel();
 
+        _consumer = new EventingBasicConsumer(_channel);
+
+
         _queueName = _settings.Value.Queues["RentalCreated"]!;
 
         _channel.QueueDeclare(queue: _queueName, durable: false, exclusive: false, autoDelete: false, arguments: null);
         _serviceScopeFactory = serviceScopeFactory;
     }
 
-    public async Task ConsumeAsync()
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var consumer = new EventingBasicConsumer(_channel);
-
-        consumer.Received += async (model, ea) =>
+        _consumer.Received += async (model, ea) =>
         {
             var body = ea.Body.ToArray();
             var message = Encoding.UTF8.GetString(body);
@@ -68,7 +71,7 @@ public class RentGeneratedConsumer
             }
         };
 
-        _channel.BasicConsume(queue: _queueName, autoAck: false, consumer: consumer);
+        _channel.BasicConsume(queue: _queueName, autoAck: false, consumer: _consumer);
 
         await Task.CompletedTask;
     }

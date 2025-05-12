@@ -20,14 +20,14 @@ public static class DependencyInjection
         services.AddScoped<IUserServiceClient, UserServiceClient>();
         services.AddScoped<IBookServiceClient, BookServiceClient>();
 
-        services.AddSingleton<RentGeneratedConsumer>();
-        services.AddSingleton<RentExpiringConsumer>();
-        services.AddSingleton<UserRegisteredConsumer>();
-
+        services.AddHostedService<RentGeneratedConsumer>();
+        services.AddHostedService<UserRegisteredConsumer>();
         services.AddHostedService<UserDeactivatedConsumer>();
         services.AddHostedService<UserRegisteredConsumer>();
         //services.AddSingleton<RentClosedConsumer>();
 
+        services.AddSingleton<RentExpiringConsumer>();
+        
         services.AddHangfire(config =>
             config.UsePostgreSqlStorage(options =>
             {
