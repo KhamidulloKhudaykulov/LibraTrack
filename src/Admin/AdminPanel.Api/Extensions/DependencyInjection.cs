@@ -16,7 +16,7 @@ public static class DependencyInjection
         services.AddScoped<IPasswordService, PasswordService>();
         services.AddScoped<IAdminRepository, AdminRepository>();
         services.AddScoped<CreateAdminRequestHandler>();
-        services.AddScoped<GetVerifiedAdminRequest>();
+        services.AddScoped<GetVerifiedAdminRequestHandler>();
 
         services.AddDbContext<ApplicationDbContext>(options =>
         {
