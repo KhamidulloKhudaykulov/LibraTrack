@@ -1,4 +1,5 @@
 ﻿using AdminPanel.Api.Application.Commands;
+using AdminPanel.Api.Application.Requests;
 using AdminPanel.Api.Persistence;
 using AdminPanel.Api.Persistence.Repositories;
 using AdminPanel.Api.Services;
@@ -15,6 +16,7 @@ public static class DependencyInjection
         services.AddScoped<IPasswordService, PasswordService>();
         services.AddScoped<IAdminRepository, AdminRepository>();
         services.AddScoped<CreateAdminRequestHandler>();
+        services.AddScoped<GetVerifiedAdminRequest>();
 
         services.AddDbContext<ApplicationDbContext>(options =>
         {

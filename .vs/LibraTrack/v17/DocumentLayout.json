@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\application\\requests\\getverifiedadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\application\\requests\\getverifiedadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\persistence\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\persistence\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\persistence\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\persistence\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\application\\requests\\createadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\application\\requests\\createadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,50 +54,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:11:36.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:11:18.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetVerifiedAdminRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:08:18.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
               "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T16:02:49.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T15:59:59.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CreateAdminRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
               "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T15:56:40.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -98,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "20250513155321_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Migrations\\20250513155321_Initial.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Migrations\\20250513155321_Initial.cs",
@@ -111,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\ApplicationDbContext.cs",
@@ -124,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
@@ -137,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
