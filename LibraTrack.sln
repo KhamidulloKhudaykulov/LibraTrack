@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Persistence", "src\Services\NotificationService\NotificationService.Persistence\NotificationService.Persistence.csproj", "{1C56A8F0-C27B-44C4-94D2-67A569D8D148}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{6971E6C5-6CF7-4EAF-9132-43F68CACB947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminPanel.Api", "src\Admin\AdminPanel.Api\AdminPanel.Api.csproj", "{3D7F54BD-A90F-4ED0-A7DD-46136176B629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{1C56A8F0-C27B-44C4-94D2-67A569D8D148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C56A8F0-C27B-44C4-94D2-67A569D8D148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C56A8F0-C27B-44C4-94D2-67A569D8D148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7F54BD-A90F-4ED0-A7DD-46136176B629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7F54BD-A90F-4ED0-A7DD-46136176B629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7F54BD-A90F-4ED0-A7DD-46136176B629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7F54BD-A90F-4ED0-A7DD-46136176B629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,5 +179,7 @@ Global
 		{D0880C53-82F0-48BC-BC7C-03866C84F131} = {E6014066-1A4B-4518-ADE3-32C1C9DB03E9}
 		{D4B6996A-B143-4DC9-9535-A0728A31D59B} = {E6014066-1A4B-4518-ADE3-32C1C9DB03E9}
 		{1C56A8F0-C27B-44C4-94D2-67A569D8D148} = {E6014066-1A4B-4518-ADE3-32C1C9DB03E9}
+		{6971E6C5-6CF7-4EAF-9132-43F68CACB947} = {8D56FCD0-407E-4056-9072-2558FAE16E36}
+		{3D7F54BD-A90F-4ED0-A7DD-46136176B629} = {6971E6C5-6CF7-4EAF-9132-43F68CACB947}
 	EndGlobalSection
 EndGlobal
