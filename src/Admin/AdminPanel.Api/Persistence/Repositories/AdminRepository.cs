@@ -45,4 +45,14 @@ public class AdminRepository : IAdminRepository
     {
         return await _context.SaveChangesAsync();
     }
+
+    public async Task<Admin> SelectAsync(Expression<Func<Admin, bool>> expression)
+    {
+        var admin = await (expression is null
+            ? _admins.FirstOrDefaultAsync()
+            : _admins
+            .FirstOrDefaultAsync(expression));
+
+        return admin;
+    }
 }

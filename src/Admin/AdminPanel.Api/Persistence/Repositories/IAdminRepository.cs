@@ -9,5 +9,6 @@ public interface IAdminRepository
     Task<Admin> UpdateAsync(Admin admin);
     Task DeleteAsync(Admin admin);
     Task<IEnumerable<Admin>> SelectAllAsync(Expression<Func<Admin, bool>> expression);
+    Task<Admin> SelectAsync(Expression<Func<Admin, bool>> expression);
     Task<int> SaveChangesAsync();
 }

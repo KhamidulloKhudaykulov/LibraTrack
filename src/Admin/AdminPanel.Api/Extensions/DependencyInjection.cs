@@ -1,5 +1,6 @@
 ﻿using AdminPanel.Api.Application.Commands;
 using AdminPanel.Api.Persistence;
+using AdminPanel.Api.Persistence.Repositories;
 using AdminPanel.Api.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,8 @@ public static class DependencyInjection
         IConfiguration configuration)
     {
         services.AddScoped<IPasswordService, PasswordService>();
-        services.AddSingleton<CreateAdminRequestHandler>();
+        services.AddScoped<IAdminRepository, AdminRepository>();
+        services.AddScoped<CreateAdminRequestHandler>();
 
         services.AddDbContext<ApplicationDbContext>(options =>
         {

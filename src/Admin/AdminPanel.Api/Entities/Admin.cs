@@ -17,7 +17,7 @@ public class Admin
     {
         if (login.Length < 5)
         {
-            throw new ArgumentException("Login can't be null or empty");
+            throw new ArgumentException("Lenght Login can't shorter than 5");
         }
 
         if (password.Length < 8)
@@ -26,5 +26,10 @@ public class Admin
         }
 
         return new Admin(Guid.NewGuid(), login, password);
+    }
+
+    public void HashPassword(string hashedPassword)
+    {
+        Password = hashedPassword;
     }
 }

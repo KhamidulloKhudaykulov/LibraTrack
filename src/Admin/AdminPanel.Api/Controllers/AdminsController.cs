@@ -19,8 +19,8 @@ public class AdminsController : ControllerBase
     {
         try
         {
-            await _createAdminRequestHandler.Create(request);
-            return Ok(request);
+            var result = await _createAdminRequestHandler.Handle(request);
+            return Ok(result);
         }
         catch (Exception ex)
         {

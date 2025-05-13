@@ -5,7 +5,7 @@ namespace AdminPanel.Api.Persistence;
 
 public class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions options) 
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
         : base(options) { }
 
     public DbSet<Admin> Admins { get; set; }
