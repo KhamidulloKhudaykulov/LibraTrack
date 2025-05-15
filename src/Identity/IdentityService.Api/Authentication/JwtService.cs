@@ -7,7 +7,7 @@ namespace IdentityService.Api.Authentication;
 
 public class JwtService : IJwtService
 {
-    private const string SecretKey = "SuperSecretKey123456!";
+    private const string SecretKey = "this_is_a_very_long_secret_key_with_32_chars!";
     public async Task<string> GenerateTokenAsync(string login)
     {
         var tokenHandler = new JwtSecurityTokenHandler();

@@ -23,6 +23,11 @@ public static class DependencyInjection
             options.UseNpgsql(configuration.GetConnectionString("Default"));
         });
 
+        services.AddHttpClient("IdentityService", client =>
+        {
+            client.BaseAddress = new Uri("https://localhost:7029/api");
+        });
+
         return services;
     }
 }

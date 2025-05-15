@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AdminPanel.Api.Controllers;
 
 [ApiController]
-[Route("admins")]
+[Route("api/admins")]
 public class AdminsController : ControllerBase
 {
     private readonly CreateAdminRequestHandler _createAdminRequestHandler;
@@ -32,7 +32,7 @@ public class AdminsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Verify(GetVerifiedAdminRequest request)
+    public async Task<IActionResult> Verify([FromQuery]GetVerifiedAdminRequest request)
     {
         try
         {
