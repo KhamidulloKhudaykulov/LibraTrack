@@ -48,9 +48,6 @@ public class GetVerifiedAdminRequestHandler
 
         var token = await response.Content.ReadAsStringAsync();
 
-        _httpClient.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
-
         return token;
     } 
 }

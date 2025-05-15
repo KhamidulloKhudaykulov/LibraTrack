@@ -6,6 +6,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddControllers();
 
+builder.Services.AddAuthorization();
+
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddServices(builder.Configuration);
@@ -22,5 +24,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.Run();
