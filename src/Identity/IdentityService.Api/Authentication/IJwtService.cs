@@ -1,6 +1,9 @@
-﻿namespace IdentityService.Api.Authentication
+﻿using System.Security.Claims;
+
+namespace IdentityService.Api.Authentication;
+
+public interface IJwtService
 {
-    public class IJwtService
-    {
-    }
+    Task<string> GenerateTokenAsync(string login);
+    Task<ClaimsPrincipal> VerifyTokenAsync(string token);
 }
