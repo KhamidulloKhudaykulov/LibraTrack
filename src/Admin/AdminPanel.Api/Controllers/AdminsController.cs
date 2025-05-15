@@ -2,7 +2,6 @@
 using AdminPanel.Api.Application.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Headers;
 
 namespace AdminPanel.Api.Controllers;
 
@@ -12,7 +11,6 @@ public class AdminsController : ControllerBase
 {
     private readonly CreateAdminRequestHandler _createAdminRequestHandler;
     private readonly GetVerifiedAdminRequestHandler _getVerifiedAdminRequestHandler;
-    private readonly HttpClient _httpClient;
 
     public AdminsController(
         CreateAdminRequestHandler createAdminRequestHandler,
@@ -21,7 +19,6 @@ public class AdminsController : ControllerBase
     {
         _createAdminRequestHandler = createAdminRequestHandler;
         _getVerifiedAdminRequestHandler = getVerifiedAdminRequestHandler;
-        _httpClient = httpClientFactory.CreateClient("IdentityService");
     }
 
     [Authorize]
@@ -44,16 +41,14 @@ public class AdminsController : ControllerBase
     {
         try
         {
-            var result = await _getVerifiedAdminRequestHandler.Handle(request);
-            _httpClient.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", result);
+            var token = await _getVerifiedAdminRequestHandler.Handle(request);
 
-            Response.Cookies.Append("access-token", result, new CookieOptions
+            Response.Cookies.Append("access-token", token, new CookieOptions
             {
                 HttpOnly = true,
                 Secure = true,
-                SameSite = SameSiteMode.Strict,
-                Expires = DateTime.UtcNow.AddSeconds(3)
+                SameSite = SameSiteMode.None,
+                Expires = DateTime.UtcNow.AddDays(1)
             });
 
             return Ok("Token verified");

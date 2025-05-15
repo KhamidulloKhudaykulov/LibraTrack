@@ -21,7 +21,8 @@ public class JwtService : IJwtService
             }),
             SigningCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(key),
-                SecurityAlgorithms.HmacSha256Signature)
+                SecurityAlgorithms.HmacSha256Signature),
+            Expires = DateTime.UtcNow.AddDays(1)
         };
         
         var token = tokenHandler.CreateToken(tokenDescriptor);

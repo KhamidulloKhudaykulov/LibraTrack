@@ -1,3 +1,4 @@
+using AccountService.Api.Extensions;
 using AccountService.Api.Logging;
 using AccountService.Application;
 using AccountService.Infrastructure.Extensions;
@@ -18,6 +19,10 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddServices();
+
+builder.Services.AddAuthorization();
 
 builder.Services.AddApplication();
 builder.Services.AddPersistence();
@@ -44,6 +49,10 @@ app.MapControllers();
 app.UseHangfireDashboard();
 
 app.MapGrpcService<AccountGrpcServiceHandler>();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.UseBackgoundJob();
 

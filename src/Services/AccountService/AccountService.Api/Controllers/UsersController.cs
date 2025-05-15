@@ -1,12 +1,14 @@
 ﻿using AccountService.Application.UseCases.Users.Commands;
 using AccountService.Application.UseCases.Users.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccountService.Api.Controllers;
 
 [ApiController]
 [Route("api/users")]
+[Authorize]
 public class UsersController : ControllerBase
 {
     private readonly ISender _sender;
