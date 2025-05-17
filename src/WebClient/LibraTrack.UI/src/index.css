@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.custom-blue{
+    color: #50ABE7;
+}
+
+.bg-custom-blue{
+    background-color: #50ABE7;
+}
+
+.custom-blue3{
+    color: #87CEEB;
+}
+
+.bg-custom-blue3:hover{
+    background-color: #87CEEB;
+}

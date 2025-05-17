@@ -1,3 +1,4 @@
+using BookService.Api.Extensions;
 using BookService.Application;
 using BookService.Infrastructure;
 using BookService.Infrastructure.Grpc.Services;
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
+
+builder.Services.AddServices();
 
 builder.Services.AddSwaggerGen();
 
@@ -30,6 +33,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+app.UseCors("AllowLocalhost5173");
 
 app.MapGrpcService<BookGrpcServiceClient>();
 
