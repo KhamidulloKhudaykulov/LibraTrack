@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using RentalService.Application.UseCases.RentalRecords.Commands;
+using RentalService.Application.UseCases.RentalRecords.Queries;
 
 namespace RentalService.Api.Controllers;
 
@@ -19,6 +20,16 @@ public class RentRecordsController : ControllerBase
     public async Task<IActionResult> Post([FromBody] GenerateRentCommand command)
     {
         var result = await _sender.Send(command);
+        if (result.IsSuccess)
+            return Ok(result.Value);
+
+        return BadRequest(result.Value);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll(GetAllRentsQuery query)
+    {
+        var result = await _sender.Send(query);
         if (result.IsSuccess)
             return Ok(result.Value);
 

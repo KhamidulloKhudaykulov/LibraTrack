@@ -14,8 +14,4 @@
     <ProjectReference Include="..\RentalService.Domain\RentalService.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCases\RentalRecords\Queries\" />
-  </ItemGroup>
-
 </Project>
