@@ -56,4 +56,6 @@ app.UseAuthorization();
 
 app.UseBackgoundJob();
 
+app.UseCors("AllowLocalhost5173");
+
 app.Run();

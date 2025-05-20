@@ -1,20 +1,22 @@
 // src/App.tsx
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import RootLayout from './components/layouts/RootLayout';
-import Books from './components/Books';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Dashboard } from './components/Dashboard';
+import { UsersPage } from './components/Users/UsersPage';
+import { BooksPage } from './components/Books/BooksPage';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<RootLayout />}>
-            <Route path='/books' element={<Books />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<RootLayout />}>
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/users' element={<UsersPage />} />
+          <Route path='/books' element={<BooksPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

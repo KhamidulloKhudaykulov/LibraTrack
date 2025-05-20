@@ -40,9 +40,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "AccountService.Application.UseCases.Users.Commands.ActiveUserCommand",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -56,9 +56,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "AccountService.Application.UseCases.Users.Commands.AddUserToBlackListCommand",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -83,6 +83,47 @@
       },
       {
         "Name": "passportNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AccountService.Api.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/users/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "passportNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phoneNumber",
         "Type": "System.String",
         "IsRequired": false
       }

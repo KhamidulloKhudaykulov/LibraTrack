@@ -40,4 +40,38 @@ public class Book : Entity
             Publisher.Create(publisher).Value,
             Price.Create(price).Value);
     }
+
+    public Result<Book> Update(
+        string title,
+        string description,
+        string author,
+        string publisher,
+        decimal price)
+    {
+        var titleResult = Title.Create(title);
+        var descriptionResult = Description.Create(description);
+        var authorResult = Author.Create(author);
+        var publisherResult = Publisher.Create(publisher);
+        var priceResult = Price.Create(price);
+
+        if (titleResult.IsFailure)
+            return Result.Failure<Book>(titleResult.Error);
+        if (descriptionResult.IsFailure)
+            return Result.Failure<Book>(descriptionResult.Error);
+        if (authorResult.IsFailure)
+            return Result.Failure<Book>(authorResult.Error);
+        if (publisherResult.IsFailure)
+            return Result.Failure<Book>(publisherResult.Error);
+        if (priceResult.IsFailure)
+            return Result.Failure<Book>(priceResult.Error);
+
+        Title = titleResult.Value;
+        Description = descriptionResult.Value;
+        Author = authorResult.Value;
+        Publisher = publisherResult.Value;
+        Price = priceResult.Value;
+
+        return Result.Success(this);
+    }
+
 }

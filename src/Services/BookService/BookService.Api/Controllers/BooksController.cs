@@ -63,4 +63,16 @@ public class BooksController : ControllerBase
 
         return BadRequest(result.Error.Message);
     }
+
+    [HttpPut]
+    public async Task<IActionResult> Update([FromQuery] UpdateBookCommand command)
+    {
+        var result = await _sender.Send(command);
+        if (result.IsSuccess)
+        {
+            return Ok(result.Value);
+        }
+
+        return BadRequest(result.Error.Message);
+    }
 }

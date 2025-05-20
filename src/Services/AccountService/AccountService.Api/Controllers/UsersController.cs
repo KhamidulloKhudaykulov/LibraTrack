@@ -8,7 +8,6 @@ namespace AccountService.Api.Controllers;
 
 [ApiController]
 [Route("api/users")]
-[Authorize]
 public class UsersController : ControllerBase
 {
     private readonly ISender _sender;
@@ -52,7 +51,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpPatch("block")]
-    public async Task<IActionResult> Block(AddUserToBlackListCommand command)
+    public async Task<IActionResult> Block([FromQuery]AddUserToBlackListCommand command)
     {
         var result = await _sender.Send(command);
 
@@ -63,7 +62,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpPatch("active")]
-    public async Task<IActionResult> Active(ActiveUserCommand command)
+    public async Task<IActionResult> Active([FromQuery]ActiveUserCommand command)
     {
         var result = await _sender.Send(command);
 
@@ -73,4 +72,14 @@ public class UsersController : ControllerBase
         return BadRequest(result.Error.Message.ToString());
     }
 
+    [HttpPut("update")]
+    public async Task<IActionResult> Update([FromQuery] UpdateUserCommand command)
+    {
+        var result = await _sender.Send(command);
+
+        if (result.IsSuccess)
+            return Ok(result.Value);
+
+        return BadRequest(result.Error.Message.ToString());
+    }
 }
