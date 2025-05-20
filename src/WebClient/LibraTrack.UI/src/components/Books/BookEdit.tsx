@@ -76,7 +76,7 @@ const BookEdit = ({ book, onClose }: BookEditProps) => {
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
           />
           <input
-            type="text"
+            type="number"
             placeholder="Price"
             value={price}
             onChange={(e) => setPrice(e.target.valueAsNumber)}

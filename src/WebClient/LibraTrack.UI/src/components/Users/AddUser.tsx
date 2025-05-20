@@ -20,8 +20,8 @@ const AddUser = () => {
         window.location.reload();
     }
     return (
-        <div className="right-0 absolute">
-            <button className="p-1 pl-4 pr-4 text-white bg-blue-500 rounded-md cursor-pointer shadow-sm hover:rounded-lg transition-all duration-300"
+        <div className="right-0 absolute p-4">
+            <button className="pr-8 pl-8 p-1 text-white bg-blue-500 rounded-md cursor-pointer shadow-sm hover:rounded-lg transition-all duration-300"
                 onClick={() => setShowAddModal(true)}
             >
                 Add User

@@ -6,7 +6,7 @@ import UserStatusFilter from "./UserStatusFilter";
 import AddUser from "./AddUser";
 
 export const UsersPage = () => {
-    const [query, setQuery] = useState("");
+    const [query, setQuery] = useState('');
     const [status, setStatus] = useState<string>('all');
     const [users, setUsers] = useState<User[]>([]);
     const [loading, setLoading] = useState(true);
@@ -55,15 +55,15 @@ export const UsersPage = () => {
             alert('Failed to active user');
         }
     };
-
+    // mt-4 ml-4 mr-4 mb-4 rounded-xl overflow-auto bg-white
     return (
-        <div className="bg-white w-full rounded-xl flex flex-col h-full">
-            <div className="mb-4 flex flex-row items-center relative">
+        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto">
+            <div className="flex flex-row items-center p-4 relative">
                 <SearchUser value={query} onChange={setQuery} />
                 <UserStatusFilter value={status} onChange={setStatus} />
                 <AddUser />
             </div>
-            <div className="flex flex-row border-t border-b border-gray-200 font-bold text-gray-400">
+            <div className="flex flex-row border-t p-4 border-b border-gray-200 font-bold text-gray-400">
                 <h2 className="flex-1 items-center">Passport</h2>
                 <h2 className="flex-1 items-center">Fullname</h2>
                 <h2 className="flex-1 items-center">Phone</h2>
@@ -81,12 +81,15 @@ export const UsersPage = () => {
                         <span className="sr-only">Loading...</span>
                     </div>
                 </div>}
+            {filteredUsers.length === 0 && (
+                <p className="ml-auto mr-auto text-gray-400 text-sm">No data</p>
+            )}
             {filteredUsers.map((user) => (
                 <div
                     key={user.id}
-                    className="flex flex-row border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
+                    className="flex flex-row p-4 border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
                     <p className="flex-1 truncate">{user.passportNumber}</p>
-                    <p className="flex-1 truncate">{user.fullName}</p>
+                    <p className="flex-1 h-auto">{user.fullName}</p>
                     <p className="flex-1 truncate">{user.phoneNumber}</p>
                     <p className="flex-1 truncate">{user.email}</p>
                     <p className="flex-1 truncate">{user.status}</p>

@@ -32,12 +32,12 @@ export const BooksPage = () => {
         return matchesQuery;
     });
     return (
-        <div className="bg-white w-full rounded-xl flex flex-col h-full">
-            <div className="mb-4 flex flex-row items-center relative">
+        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto">
+            <div className="flex flex-row items-center relative p-4">
                 <SearchBook value={query} onChange={setQuery} />
                 <AddBook />
             </div>
-            <div className="flex flex-row border-t border-b border-gray-200 font-bold text-gray-400">
+            <div className="flex flex-row border-t border-b border-gray-200 font-bold text-gray-400 p-4">
                 <h2 className="flex-1 items-center">Title</h2>
                 <h2 className="flex-1 items-center">Description</h2>
                 <h2 className="flex-1 items-center">Author</h2>
@@ -55,11 +55,14 @@ export const BooksPage = () => {
                         <span className="sr-only">Loading...</span>
                     </div>
                 </div>}
+            {filteredBooks.length === 0 && (
+                <p className="ml-auto mr-auto text-gray-400 text-sm">No data</p>
+            )}
             {filteredBooks.map((book) => (
                 <div
                     key={book.id}
-                    className="flex flex-row border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
-                    <p className="flex-1 truncate">{book.title}</p>
+                    className="flex flex-row p-4 border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
+                    <p className="flex-1 h-auto font-bold">{book.title}</p>
                     <p className="flex-1 truncate">{book.description}</p>
                     <p className="flex-1 truncate">{book.author}</p>
                     <p className="flex-1 truncate">{book.publisher}</p>
