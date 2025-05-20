@@ -1,4 +1,5 @@
 using Hangfire;
+using RentalService.Api.Extensions;
 using RentalService.Application;
 using RentalService.Infrastructure;
 using RentalService.Infrastructure.Extensions;
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddServices();
 
 builder.Services.AddControllers();
 
@@ -32,5 +35,7 @@ app.UseHangfireDashboard();
 app.MapControllers();
 
 app.UseBackgroundJobs();
+
+app.UseCors("AllowLocalhost5173");
 
 app.Run();
