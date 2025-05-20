@@ -2,6 +2,7 @@ import { getBooks, type Book } from "@/services/bookService";
 import { useEffect, useState } from "react";
 import SearchBook from "./SearchBook";
 import BookEdit from "./BookEdit";
+import AddBook from "./AddBook";
 
 export const BooksPage = () => {
     const [query, setQuery] = useState('');
@@ -34,6 +35,7 @@ export const BooksPage = () => {
         <div className="bg-white w-full rounded-xl flex flex-col h-full">
             <div className="mb-4 flex flex-row items-center relative">
                 <SearchBook value={query} onChange={setQuery} />
+                <AddBook />
             </div>
             <div className="flex flex-row border-t border-b border-gray-200 font-bold text-gray-400">
                 <h2 className="flex-1 items-center">Title</h2>

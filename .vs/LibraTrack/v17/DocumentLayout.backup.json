@@ -126,8 +126,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
               "ViewState": "AgIAACsAAAAAAAAAAADwv1IAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:34:25.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T12:34:25.735Z"
             },
             {
               "$type": "Document",
@@ -139,8 +138,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAcwCcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:31:40.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T12:31:40.221Z"
             },
             {
               "$type": "Document",
@@ -152,8 +150,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAtwCQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:31:23.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T15:31:23.599Z"
             },
             {
               "$type": "Document",
@@ -165,8 +162,7 @@
               "RelativeToolTip": "src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T05:22:49.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T05:22:49.254Z"
             },
             {
               "$type": "Document",
@@ -190,8 +186,7 @@
               "RelativeToolTip": "src\\Services\\BookService\\BookService.Domain\\Entities\\Book.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAQwCwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T05:43:31.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T05:43:31.745Z"
             },
             {
               "$type": "Document",
@@ -201,7 +196,7 @@
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA+wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T11:53:47.872Z",
               "EditorCaption": ""
