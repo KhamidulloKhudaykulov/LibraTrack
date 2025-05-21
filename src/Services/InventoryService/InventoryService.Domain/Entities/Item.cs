@@ -21,7 +21,7 @@ public class Item : Entity
     public int Amount { get; private set; }
     public int AvailableQuantity { get; private set; }
     public decimal Price { get; private set; }
-    public decimal TotalPrice => Amount * Price;
+    public decimal TotalPrice  => Amount * Price;
     public DateTime CreatedAt { get; } = DateTime.UtcNow;
 
     public static Result<Item> Create(
@@ -32,5 +32,10 @@ public class Item : Entity
         )
     {
         return new Item(productId, amount, availableQuantity, price);
+    }
+
+    public void AddAvailableQuantity(int quantity)
+    {
+        AvailableQuantity += quantity;
     }
 }
