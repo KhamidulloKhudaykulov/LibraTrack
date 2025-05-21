@@ -146,8 +146,7 @@
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:07:34.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T19:07:34.196Z"
             },
             {
               "$type": "Document",
@@ -157,7 +156,7 @@
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T18:54:39.885Z",
               "EditorCaption": ""
@@ -172,8 +171,7 @@
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:52:54.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:52:54.058Z"
             },
             {
               "$type": "Document",
@@ -185,21 +183,19 @@
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:52:31.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:52:31.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RentalService.Api",
+              "Title": "RentalService.Api.csproj",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-20T18:51:12.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:51:12.185Z"
             },
             {
               "$type": "Document",
@@ -235,8 +231,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA+wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:53:47.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T11:53:47.872Z"
             },
             {
               "$type": "Document",
@@ -248,8 +243,7 @@
               "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:49:43.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T15:49:43.812Z"
             },
             {
               "$type": "Document",
@@ -261,8 +255,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAADoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:42:25.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T10:42:25.541Z"
             },
             {
               "$type": "Document",
@@ -286,8 +279,7 @@
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAkwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:55:34.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T11:55:34.765Z"
             },
             {
               "$type": "Document",
