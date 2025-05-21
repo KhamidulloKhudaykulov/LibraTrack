@@ -1,4 +1,5 @@
 ﻿using InventoryService.Application.Abstractions.Messaging;
+using InventoryService.Application.Interfaces.Clients;
 using InventoryService.Domain.Entities;
 using InventoryService.Domain.Repositories;
 using InventoryService.Domain.Shared;
@@ -13,11 +14,20 @@ public record ReceiveStockCommand(
 
 public class ReceiveStockCommandHandler(
     IItemRepository _itemRepository,
-    IUnitOfWork _unitOfWork) 
+    IUnitOfWork _unitOfWork,
+    IBookServiceClient _bookServiceClient) 
     : ICommandHandler<ReceiveStockCommand, Item>
 {
     public async Task<Result<Item>> Handle(ReceiveStockCommand request, CancellationToken cancellationToken)
     {
+        var book = await _bookServiceClient.GetBookNameAsync(request.productId.ToString());
+        if (book is null)
+        {
+            return Result.Failure<Item>(new Error(
+                code: "Product.NotFound",
+                message: $"This product with ID={request.productId} is not found"));
+        }
+
         var stock = await _itemRepository.SelectAsync(i => i.ProductId == request.productId);
 
         if (stock is not null)
