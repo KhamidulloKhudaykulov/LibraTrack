@@ -38,4 +38,9 @@ public class Item : Entity
     {
         AvailableQuantity += quantity;
     }
+
+    public int RemoveAvailableQuantity(int quantity)
+    {
+        return AvailableQuantity -= quantity;
+    }
 }
