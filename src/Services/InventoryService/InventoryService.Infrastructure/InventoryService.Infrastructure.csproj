@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Grpc\Protos\" />
-    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
