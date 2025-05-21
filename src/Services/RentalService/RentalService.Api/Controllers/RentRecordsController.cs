@@ -6,7 +6,7 @@ using RentalService.Application.UseCases.RentalRecords.Queries;
 namespace RentalService.Api.Controllers;
 
 [ApiController]
-[Route("rents")]
+[Route("api/rents")]
 public class RentRecordsController : ControllerBase
 {
     private readonly ISender _sender;
@@ -27,7 +27,7 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAll(GetAllRentsQuery query)
+    public async Task<IActionResult> GetAll([FromQuery]GetAllRentsQuery query)
     {
         var result = await _sender.Send(query);
         if (result.IsSuccess)

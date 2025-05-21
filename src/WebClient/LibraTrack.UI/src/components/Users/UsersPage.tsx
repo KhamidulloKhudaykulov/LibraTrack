@@ -57,7 +57,7 @@ export const UsersPage = () => {
     };
     // mt-4 ml-4 mr-4 mb-4 rounded-xl overflow-auto bg-white
     return (
-        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto">
+        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto shadow-">
             <div className="flex flex-row items-center p-4 relative">
                 <SearchUser value={query} onChange={setQuery} />
                 <UserStatusFilter value={status} onChange={setStatus} />

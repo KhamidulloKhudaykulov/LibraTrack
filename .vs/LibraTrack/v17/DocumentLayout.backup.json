@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\rentalservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\rentalservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|solutionrelative:src\\services\\bookservice\\bookservice.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,18 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\producers\\usereventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\messagebroker\\producers\\usereventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|solutionrelative:src\\services\\bookservice\\bookservice.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,59 +134,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwv1IAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RentRecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:34:25.735Z"
+              "WhenOpened": "2025-05-20T19:07:34.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllRentsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:54:39.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:52:54.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCcAAAAdAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:31:40.221Z"
+              "WhenOpened": "2025-05-20T18:52:31.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserEventProducer.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAtwCQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:31:23.599Z"
+              "Title": "RentalService.Api",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T18:51:12.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateBookCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
-              "RelativeToolTip": "src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T05:22:49.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\Extensions\\DependencyInjection.cs",
@@ -178,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Domain\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Domain\\Entities\\Book.cs",
@@ -190,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
@@ -203,7 +240,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:49:43.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:42:25.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Application\\UseCases\\Books\\Commands\\UpdateBookCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T05:22:49.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:55:34.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserEventProducer.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Infrastructure\\MessageBroker\\Producers\\UserEventProducer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwCQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:31:23.599Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "UpdateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Application\\UseCases\\Users\\Commands\\UpdateUserCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:31:40.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv1IAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:34:25.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\Program.cs",
@@ -215,43 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAtwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:49:43.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA5wCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:55:34.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:42:25.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
@@ -263,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Authentication\\IJwtService.cs",
               "RelativeDocumentMoniker": "src\\Identity\\IdentityService.Api\\Authentication\\IJwtService.cs",
@@ -275,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Authentication\\JwtService.cs",
               "RelativeDocumentMoniker": "src\\Identity\\IdentityService.Api\\Authentication\\JwtService.cs",
@@ -287,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
@@ -299,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
@@ -311,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "IdentityController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Controllers\\IdentityController.cs",
               "RelativeDocumentMoniker": "src\\Identity\\IdentityService.Api\\Controllers\\IdentityController.cs",
@@ -323,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Identity\\IdentityService.Api\\Program.cs",
@@ -335,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "GetVerifiedAdminRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
@@ -347,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "CreateAdminRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\CreateAdminRequestHandler.cs",
@@ -359,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "IAdminRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\IAdminRepository.cs",
@@ -371,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "AdminRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\Repositories\\AdminRepository.cs",
@@ -383,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Entities\\Admin.cs",
@@ -395,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -407,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "20250513155321_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Migrations\\20250513155321_Initial.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Migrations\\20250513155321_Initial.cs",
@@ -419,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Persistence\\ApplicationDbContext.cs",

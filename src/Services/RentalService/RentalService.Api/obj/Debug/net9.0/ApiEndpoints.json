@@ -2,7 +2,7 @@
   {
     "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
     "Method": "Post",
-    "RelativePath": "rents",
+    "RelativePath": "api/rents",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,8 +17,24 @@
   },
   {
     "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
+    "Method": "GetAll",
+    "RelativePath": "api/rents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "RentalService.Application.UseCases.RentalRecords.Queries.GetAllRentsQuery",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
     "Method": "Close",
-    "RelativePath": "rents/close",
+    "RelativePath": "api/rents/close",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

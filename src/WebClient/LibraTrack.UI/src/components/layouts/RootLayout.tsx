@@ -47,7 +47,7 @@ const RootLayout = () => {
           <UserAccount />
         </div>
 
-        <main className="m-4 overflow-auto shadow-xs">
+        <main className="m-4 overflow-auto ">
           <Outlet />
         </main>
       </div>
