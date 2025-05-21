@@ -1,4 +1,5 @@
-﻿using InventoryService.Domain.Primitives;
+﻿using InventoryService.Domain.Events.Items;
+using InventoryService.Domain.Primitives;
 using InventoryService.Domain.Shared;
 
 namespace InventoryService.Domain.Entities;
@@ -31,7 +32,11 @@ public class Item : Entity
         decimal price
         )
     {
-        return new Item(productId, amount, availableQuantity, price);
+        
+        var item = new Item(productId, amount, availableQuantity, price);
+        item.AddDomainEvent(new ItemCreatedDomainEvent(productId));
+
+        return item;
     }
 
     public void AddAvailableQuantity(int quantity)
