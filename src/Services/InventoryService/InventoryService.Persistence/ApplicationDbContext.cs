@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using InventoryService.Persistence.Extensions;
+using Microsoft.EntityFrameworkCore;
 
 namespace InventoryService.Persistence;
 

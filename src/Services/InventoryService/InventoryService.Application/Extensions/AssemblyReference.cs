@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace InventoryService.Persistence;
+namespace InventoryService.Application.Extensions;
 
 public static class AssemblyReference
 {
