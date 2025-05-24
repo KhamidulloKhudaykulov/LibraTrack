@@ -18,9 +18,9 @@ public class GetAvailableItemQuantityQueryHandler(
         {
             return Result.Failure<int>(new Error(
                 code: "Item.NotFound",
-                message: $"This item with ID={request.productId} is not found"));
+                message: $"This product with ID={request.productId} is not found"));
         }
 
-        return Result.Success(item.Amount);
+        return Result.Success(item.AvailableQuantity);
     }
 }

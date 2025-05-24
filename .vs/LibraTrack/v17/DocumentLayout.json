@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getavailableitemquantityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getavailableitemquantityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GetAvailableItemQuantityQuery.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T03:00:13.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20250524025119_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250524025119_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250524025119_Initial.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\ItemRepository.cs",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\ApplicationDbContext.cs",
