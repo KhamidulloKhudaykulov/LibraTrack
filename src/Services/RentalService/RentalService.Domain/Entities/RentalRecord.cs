@@ -24,6 +24,7 @@ public class RentalRecord : Entity
     public Guid BookId { get; private set; }
     public DateTime StartDate { get; private set; } = DateTime.MinValue;
     public DateTime EndDate { get; private set; } = DateTime.MinValue;
+    public decimal RentPrice { get; private set; }
     public bool IsReturned { get; private set; }
 
     public void CloseRent()
