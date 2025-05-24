@@ -37,6 +37,9 @@ namespace RentalService.Persistence.Migrations
                     b.Property<bool>("IsReturned")
                         .HasColumnType("boolean");
 
+                    b.Property<decimal>("RentPrice")
+                        .HasColumnType("numeric");
+
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("timestamp with time zone");
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -35,6 +36,7 @@ namespace RentalService.Persistence.Migrations
                     BookId = table.Column<Guid>(type: "uuid", nullable: false),
                     StartDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     EndDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    RentPrice = table.Column<decimal>(type: "numeric", nullable: false),
                     IsReturned = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
