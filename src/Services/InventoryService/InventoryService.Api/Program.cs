@@ -1,3 +1,4 @@
+using InventoryService.Api.Extensions;
 using InventoryService.Application.Extensions;
 using InventoryService.Infrastructure.Extensions;
 using InventoryService.Persistence.Extensions;
@@ -11,6 +12,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
+
+builder.Services.AddServices();
 
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
@@ -30,5 +33,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+app.UseCors("AllowLocalhost5173");
 
 app.Run();
