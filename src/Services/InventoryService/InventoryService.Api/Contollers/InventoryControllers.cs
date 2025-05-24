@@ -28,8 +28,20 @@ public class InventoryControllers : ControllerBase
         return Ok(response);
     }
 
-    [HttpPut]
-    public async Task<IActionResult> ReceiveItem([FromBody]DeductItemFromStockCommand command)
+    [HttpPut("deduct")]
+    public async Task<IActionResult> DeductItem([FromBody]DeductItemFromStockCommand command)
+    {
+        var response = await _sender.Send(command);
+        if (response.IsFailure)
+        {
+            return BadRequest(response.Error);
+        }
+
+        return Ok(response);
+    }
+
+    [HttpPut("add")]
+    public async Task<IActionResult> ReceiveItem([FromBody] AddQuantityCommand command)
     {
         var response = await _sender.Send(command);
         if (response.IsFailure)
