@@ -10,7 +10,7 @@ public class ItemRepository : IItemRepository
     private readonly ApplicationDbContext _context;
     private readonly DbSet<Item> _items;
 
-    public ItemRepository(ApplicationDbContext context, DbSet<Item> items)
+    public ItemRepository(ApplicationDbContext context)
     {
         _context = context;
         _items = _context.Set<Item>();
@@ -31,13 +31,18 @@ public class ItemRepository : IItemRepository
         await Task.FromResult(_items.Remove(item));
     }
 
-    public Task<Item> SelectAsync(Expression<Func<Item, bool>> expression)
+    public async Task<Item> SelectAsync(Expression<Func<Item, bool>> expression)
     {
-        throw new NotImplementedException();
+        return await _items.FirstOrDefaultAsync(expression);
     }
 
-    public Task<IEnumerable<Item>> SelectAllAsync(Expression<Func<Item, bool>>? expression = null)
+    public async Task<IEnumerable<Item>> SelectAllAsync(Expression<Func<Item, bool>>? expression = null)
     {
-        throw new NotImplementedException();
+        var items = expression is null
+            ? _items
+            : _items
+            .Where(expression);
+
+        return await Task.FromResult(items);
     }
 }
