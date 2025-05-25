@@ -55,4 +55,14 @@ public class RentRecordsController : ControllerBase
 
         return BadRequest(result);
     }
+
+    [HttpPut]
+    public async Task<IActionResult> Cancel([FromQuery] CancelRentCommand command)
+    {
+        var result = await _sender.Send(command);
+        if (result.IsSuccess)
+            return Ok(result);
+
+        return BadRequest(result);
+    }
 }
