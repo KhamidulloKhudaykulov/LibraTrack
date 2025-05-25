@@ -43,7 +43,7 @@ public class RentalRecord : Entity
         IsPayed = true;
     }
 
-    public void CancelRent(Guid rentId)
+    public void CancelRent()
     {
         IsDeleted = true;
     }
