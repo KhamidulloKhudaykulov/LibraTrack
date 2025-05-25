@@ -10,6 +10,7 @@ public class RentResultResponse
     public decimal Price { get; set; }
     public bool IsReturned { get; set; }
     public bool IsPayed { get; set; }
+    public bool IsDeleted { get; set; }
     public string StartDate { get; set; } = default!;
     public string EndDate { get; set; } = default!;
 }
