@@ -45,4 +45,14 @@ public class RentRecordsController : ControllerBase
 
         return BadRequest(result);
     }
+
+    [HttpPut("pay")]
+    public async Task<IActionResult> Pay([FromQuery] PayRentCommand command)
+    {
+        var result = await _sender.Send(command);
+        if (result.IsSuccess)
+            return Ok(result);
+
+        return BadRequest(result);
+    }
 }

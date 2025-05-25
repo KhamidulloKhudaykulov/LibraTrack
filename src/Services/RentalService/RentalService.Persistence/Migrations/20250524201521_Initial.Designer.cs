@@ -12,7 +12,7 @@ using RentalService.Persistence;
 namespace RentalService.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250524031936_Initial")]
+    [Migration("20250524201521_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -36,6 +36,9 @@ namespace RentalService.Persistence.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsPayed")
+                        .HasColumnType("boolean");
 
                     b.Property<bool>("IsReturned")
                         .HasColumnType("boolean");

@@ -10,7 +10,8 @@ public record GenerateRentCommand(
     Guid userId,
     Guid bookId,
     DateTime startDate,
-    DateTime endDate) : ICommand<RentResultResponse>;
+    DateTime endDate,
+    decimal price) : ICommand<RentResultResponse>;
 
 public class GenerateRentCommandHandler(
     IRentalRecordRepository _rentalRecordRepository,
@@ -23,6 +24,8 @@ public class GenerateRentCommandHandler(
             request.bookId,
             request.startDate,
             request.endDate,
+            request.price,
+            false,
             false).Value;
 
         try

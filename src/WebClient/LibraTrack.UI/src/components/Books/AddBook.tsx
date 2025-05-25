@@ -29,7 +29,7 @@ const AddBook = () => {
                 Add Book
             </button>
             {showAddModal && (
-                <div className="fixed inset-0 bg-opacity-40 flex justify-center items-center z-50">
+                <div className="bg-opacity fixed inset-0 bg-opacity-40 flex justify-center items-center z-50">
                     <div className="bg-white p-6 rounded-md shadow-lg p-12">
                         <h2 className="text-xl font-bold mb-4">Add New User</h2>
                         <div className="flex flex-col gap-1">

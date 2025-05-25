@@ -6,17 +6,21 @@ namespace RentalService.Domain.Entities;
 
 public class RentalRecord : Entity
 {
-    private RentalRecord(
+    protected RentalRecord(
         Guid userId,
         Guid bookId,
         DateTime startDate,
         DateTime endDate,
+        decimal rentPrice,
+        bool isPayed,
         bool isReturned)
     {
         UserId = userId;
         BookId = bookId;
         StartDate = startDate;
         EndDate = endDate;
+        RentPrice = rentPrice;
+        IsPayed = isPayed;
         IsReturned = isReturned;
     }
 
@@ -25,12 +29,18 @@ public class RentalRecord : Entity
     public DateTime StartDate { get; private set; } = DateTime.MinValue;
     public DateTime EndDate { get; private set; } = DateTime.MinValue;
     public decimal RentPrice { get; private set; }
+    public bool IsPayed { get; private set; } = false;
     public bool IsReturned { get; private set; }
 
     public void CloseRent()
     {
-        IsReturned = false;
+        IsReturned = true;
         AddDomainEvent(new RentClosedDomainEvent(Id, UserId, BookId));
+    }
+
+    public void PayRent()
+    {
+        IsPayed = true;
     }
 
     public static Result<RentalRecord> Create(
@@ -38,6 +48,8 @@ public class RentalRecord : Entity
         Guid bookId,
         DateTime startDate,
         DateTime endDate,
+        decimal rentPrice,
+        bool isPayed,
         bool isReturned)
     {
         if (userId == Guid.Empty)
@@ -72,13 +84,16 @@ public class RentalRecord : Entity
         bookId,
         startDate,
         endDate,
+        rentPrice,
+        isPayed,
         isReturned);
 
         rentalRecord.AddDomainEvent(new RentGeneratedDomainEvent(
             bookId,
             userId,
             startDate.ToString("dd.MM.yyyy"),
-            endDate.ToString("dd.MM.yyyy")));
+            endDate.ToString("dd.MM.yyyy"),
+            rentPrice));
 
         return rentalRecord;
     }

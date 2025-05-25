@@ -35,7 +35,7 @@ const BookEdit = ({ book, onClose }: BookEditProps) => {
   }
 
   return (
-    <div className="fixed inset-0 bg-opacity-10 flex justify-center items-center z-50">
+    <div className="fixed inset-0 bg-opacity flex justify-center items-center z-50">
       <div className="bg-white rounded-lg p-6 shadow-2xl w-[400px]">
         <h2 className="text-xl font-bold mb-4">Edit User</h2>
         <div className="flex flex-col gap-1">

@@ -37,6 +37,7 @@ namespace RentalService.Persistence.Migrations
                     StartDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     EndDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     RentPrice = table.Column<decimal>(type: "numeric", nullable: false),
+                    IsPayed = table.Column<bool>(type: "boolean", nullable: false),
                     IsReturned = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>

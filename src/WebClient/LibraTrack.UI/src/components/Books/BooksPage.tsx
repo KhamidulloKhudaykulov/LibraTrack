@@ -61,7 +61,7 @@ export const BooksPage = () => {
             {filteredBooks.map((book) => (
                 <div
                     key={book.id}
-                    className="flex flex-row p-4 border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
+                    className="flex flex-row p-4 border-b py-6 hover:bg-gray-50 border-gray-200 text-gray-700">
                     <p className="flex-1 h-auto font-bold">{book.title}</p>
                     <p className="flex-1 truncate">{book.description}</p>
                     <p className="flex-1 truncate">{book.author}</p>

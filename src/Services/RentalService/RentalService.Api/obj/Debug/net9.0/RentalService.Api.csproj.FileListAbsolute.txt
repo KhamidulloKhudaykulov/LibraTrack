@@ -1,9 +1,3 @@
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.csproj.AssemblyReference.cache
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.AssemblyInfoInputs.cache
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.AssemblyInfo.cs
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.csproj.CoreCompileInputs.cache
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\appsettings.json
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Api.staticwebassets.endpoints.json
@@ -53,6 +47,7 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\b
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Npgsql.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RabbitMQ.Client.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -148,9 +143,15 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\b
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Persistence.dll
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Application.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Infrastructure.pdb
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Domain.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Persistence.pdb
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RentalService.Domain.pdb
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.csproj.AssemblyReference.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.AssemblyInfoInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.AssemblyInfo.cs
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.csproj.CoreCompileInputs.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.sourcelink.json
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\scopedcss\bundle\RentalService.Api.styles.css
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\staticwebassets.development.json
@@ -168,5 +169,3 @@ C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\o
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.pdb
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.genruntimeconfig.cache
 C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\ref\RentalService.Api.dll
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\bin\Debug\net9.0\RabbitMQ.Client.dll
-C:\Users\xuday\Desktop\LibraTrack\src\Services\RentalService\RentalService.Api\obj\Debug\net9.0\RentalService.Api.sourcelink.json

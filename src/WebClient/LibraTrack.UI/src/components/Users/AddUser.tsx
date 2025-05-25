@@ -28,36 +28,36 @@ const AddUser = () => {
             </button>
 
             {showAddModal && (
-                <div className="fixed inset-0 bg-opacity-40 flex justify-center items-center z-50">
-                    <div className="bg-white p-6 rounded-md shadow-lg p-12">
+                <div className="bg-opacity fixed inset-0 bg-opacity-40 flex justify-center items-center z-50">
+                    <div className="bg-white p-6 rounded-md shadow-lg p-8 w-100">
                         <h2 className="text-xl font-bold mb-4">Add New User</h2>
-                        <div className="flex flex-col gap-1">
+                        <div className="flex flex-col gap-3">
                             <input
                                 type="text"
                                 placeholder="First name"
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
-                                className="p-2 bg-gray-100 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                                className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input
                                 type="text"
                                 placeholder="Last name"
                                 value={lastName}
                                 onChange={(e) => setLastName(e.target.value)}
-                                className="p-2 bg-gray-100 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400" /> <input type="text"
+                                className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" /> <input type="text"
                                     placeholder="Email"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
-                                    className="p-2 bg-gray-100 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                                    className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input type="text"
                                 placeholder="Phone number"
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
-                                className="p-2 bg-gray-100 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                                className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input type="text"
                                 placeholder="Passport number"
                                 onChange={(e) => setPassportNumber(e.target.value)}
                                 value={passportNumber}
-                                className="p-2 bg-gray-100 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                                className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                         </div>
                         <button
                             className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"

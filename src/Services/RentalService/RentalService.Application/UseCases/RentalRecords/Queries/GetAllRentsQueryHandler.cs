@@ -19,11 +19,15 @@ public class GetAllRentsQueryHandler(
             .SelectAllAsync())
             .Select(async r => new RentResultResponse
             {
+                Id = r.Id,
                 BookId = r.BookId,
                 BookTitle = await _bookServiceClient.GetBookNameAsync(r.BookId.ToString()),
                 StartDate = r.StartDate.ToString("dd.MM.yyyy"),
                 EndDate = r.EndDate.ToString("dd.MM.yyyy"),
-                UserEmail = await _userServiceClient.GetUserEmailAsync(r.UserId.ToString())
+                UserEmail = await _userServiceClient.GetUserEmailAsync(r.UserId.ToString()),
+                Price = r.RentPrice,
+                IsPayed = r.IsPayed,
+                IsReturned = r.IsReturned,
             });
 
         return (await Task.WhenAll(rents)).ToList();

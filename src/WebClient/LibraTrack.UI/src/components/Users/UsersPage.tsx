@@ -87,7 +87,7 @@ export const UsersPage = () => {
             {filteredUsers.map((user) => (
                 <div
                     key={user.id}
-                    className="flex flex-row p-4 border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700">
+                    className="flex flex-row p-4 border-b py-6 hover:bg-gray-50 border-gray-200 text-gray-700">
                     <p className="flex-1 truncate">{user.passportNumber}</p>
                     <p className="flex-1 h-auto">{user.fullName}</p>
                     <p className="flex-1 truncate">{user.phoneNumber}</p>

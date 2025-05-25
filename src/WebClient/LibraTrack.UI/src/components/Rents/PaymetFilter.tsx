@@ -1,9 +1,9 @@
-type UserStatusFilterProps = {
+type PaymentFilterProps = {
     value: string;
     onChange: (value: string) => void;
 }
 
-const UserStatusFilter = ({ value, onChange }: UserStatusFilterProps) => {
+const PaymentFilter = ({ value, onChange }: PaymentFilterProps) => {
     return (
         <div>
             <select
@@ -11,12 +11,12 @@ const UserStatusFilter = ({ value, onChange }: UserStatusFilterProps) => {
                 onChange={(e) => onChange(e.target.value)}
                 className="cursor-pointer border border-blue-400 p-1 rounded-md bg-inherit border-gray-300 text-gray-300 ml-4 outline-none focus:ring-1 transition-all duration-300 focus:ring-blue-400 hover:border-blue-200"
             >
-                <option value="all">All Statuses</option>
-                <option value="Active">Active</option>
-                <option value="Blocked">Blocked</option>
+                <option value="">Payment Status</option>
+                <option value="true">Payed</option>
+                <option value="false">Not Payed</option>
             </select>
         </div>
-    )
+    );
 };
 
-export default UserStatusFilter;
+export default PaymentFilter;

@@ -23,6 +23,7 @@ public class CloseRentCommandHandler
         }
 
         rent.CloseRent();
+        rent.PayRent();
         await _rentalRecordRepository.UpdateAsync(rent);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 

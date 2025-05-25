@@ -35,19 +35,31 @@ const RootLayout = () => {
             `px-4 py-3 hover:bg-blue-100 duration-300 ${isActive ? "text-blue-500 font-semibold" : "text-gray-800"
             }`
           }>Rents</NavLink>
+          <NavLink
+          to="/inventory"
+          className={({ isActive }) =>
+            `px-4 py-3 hover:bg-blue-100 duration-300 ${isActive ? "text-blue-500 font-semibold" : "text-gray-800"
+            }`
+          }>Inventory</NavLink>
+          <NavLink
+          to="/settings"
+          className={({ isActive }) =>
+            `px-4 py-3 hover:bg-blue-100 duration-300 ${isActive ? "text-blue-500 font-semibold" : "text-gray-800"
+            }`
+          }>Settings</NavLink>
       </nav>
 
-      <div className="flex flex-col flex-1 overflow-hidden relative">
-        <div className="h-14 bg-white shadow-sm flex items-center px-4 ml-4 mr-4 mt-4 rounded-xl">
+      <div className="flex flex-col flex-1 relative">
+        <div className="h-18 bg-white shadow-sm flex items-center px-4 ml-4 mr-4 mt-4 rounded-xl">
           <input
             type="text"
             placeholder="Search"
-            className="w-72 bg-gray-100 h-8 rounded-sm px-4 border border-gray-200 text-gray-600"
+            className="w-72 bg-gray-100 rounded-sm px-4 border border-gray-200 text-gray-600"
           />
           <UserAccount />
         </div>
 
-        <main className="m-4 overflow-auto ">
+        <main className="m-4 overflow-y-scroll">
           <Outlet />
         </main>
       </div>
