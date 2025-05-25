@@ -12,7 +12,7 @@ using RentalService.Persistence;
 namespace RentalService.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250524201521_Initial")]
+    [Migration("20250525123515_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -34,8 +34,14 @@ namespace RentalService.Persistence.Migrations
                     b.Property<Guid>("BookId")
                         .HasColumnType("uuid");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
 
                     b.Property<bool>("IsPayed")
                         .HasColumnType("boolean");
