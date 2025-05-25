@@ -16,12 +16,12 @@ public class PayRentCommandHandler(
 {
     public async Task<Result<RentResultResponse>> Handle(PayRentCommand request, CancellationToken cancellationToken)
     {
-        var rent = await _rentalRecordRepository.SelectAsync(r => r.Id == request.rentId);
+        var rent = await _rentalRecordRepository.SelectAsync(r => r.Id == request.rentId && !r.IsDeleted);
         if (rent is null)
         {
             return Result.Failure<RentResultResponse>(new Error(
                 code: "Rent.NotFound",
-                message: $"This rent with ID={request.rentId} is not found"));
+                message: $"This rent with ID={request.rentId} is not found or already has been canceled"));
         }
 
         rent.PayRent();

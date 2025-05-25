@@ -14,12 +14,12 @@ public class CloseRentCommandHandler
 {
     public async Task<Result> Handle(CloseRentCommand request, CancellationToken cancellationToken)
     {
-        var rent = await _rentalRecordRepository.SelectAsync(b => b.Id == request.rentId);
+        var rent = await _rentalRecordRepository.SelectAsync(r => r.Id == request.rentId && !r.IsDeleted);
         if (rent is null || rent.IsReturned)
         {
             return Result.Failure(new Error(
                 code: "Rent.NotFound",
-                message: $"This rent with ID={request.rentId} was not found or already closed"));
+                message: $"This rent with ID={request.rentId} was not found or already closed or canceled"));
         }
 
         rent.CloseRent();
