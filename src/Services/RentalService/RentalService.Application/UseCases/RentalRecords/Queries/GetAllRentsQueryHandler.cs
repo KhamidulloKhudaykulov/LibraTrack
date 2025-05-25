@@ -28,6 +28,7 @@ public class GetAllRentsQueryHandler(
                 Price = r.RentPrice,
                 IsPayed = r.IsPayed,
                 IsReturned = r.IsReturned,
+                IsDeleted = r.IsDeleted,
             });
 
         return (await Task.WhenAll(rents)).ToList();
