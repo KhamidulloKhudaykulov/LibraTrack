@@ -2,5 +2,5 @@
 
 public interface IUserServiceClient
 {
-    Task<string> GetUserEmailAsync(string userId);
+    Task<string> GetUserNameAsync(string userId);
 }
