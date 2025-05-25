@@ -46,17 +46,17 @@ namespace RentalService.Infrastructure.Grpc {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::RentalService.Infrastructure.Grpc.GetUserEmailRequest> __Marshaller_GetUserEmailRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::RentalService.Infrastructure.Grpc.GetUserEmailRequest.Parser));
+    static readonly grpc::Marshaller<global::RentalService.Infrastructure.Grpc.GetUserNameRequest> __Marshaller_GetUserNameRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::RentalService.Infrastructure.Grpc.GetUserNameRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::RentalService.Infrastructure.Grpc.UserEmailResponse> __Marshaller_UserEmailResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::RentalService.Infrastructure.Grpc.UserEmailResponse.Parser));
+    static readonly grpc::Marshaller<global::RentalService.Infrastructure.Grpc.UserNameResponse> __Marshaller_UserNameResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::RentalService.Infrastructure.Grpc.UserNameResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::RentalService.Infrastructure.Grpc.GetUserEmailRequest, global::RentalService.Infrastructure.Grpc.UserEmailResponse> __Method_GetUserEmail = new grpc::Method<global::RentalService.Infrastructure.Grpc.GetUserEmailRequest, global::RentalService.Infrastructure.Grpc.UserEmailResponse>(
+    static readonly grpc::Method<global::RentalService.Infrastructure.Grpc.GetUserNameRequest, global::RentalService.Infrastructure.Grpc.UserNameResponse> __Method_GetUserName = new grpc::Method<global::RentalService.Infrastructure.Grpc.GetUserNameRequest, global::RentalService.Infrastructure.Grpc.UserNameResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetUserEmail",
-        __Marshaller_GetUserEmailRequest,
-        __Marshaller_UserEmailResponse);
+        "GetUserName",
+        __Marshaller_GetUserNameRequest,
+        __Marshaller_UserNameResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -92,24 +92,24 @@ namespace RentalService.Infrastructure.Grpc {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::RentalService.Infrastructure.Grpc.UserEmailResponse GetUserEmail(global::RentalService.Infrastructure.Grpc.GetUserEmailRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::RentalService.Infrastructure.Grpc.UserNameResponse GetUserName(global::RentalService.Infrastructure.Grpc.GetUserNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetUserEmail(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetUserName(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::RentalService.Infrastructure.Grpc.UserEmailResponse GetUserEmail(global::RentalService.Infrastructure.Grpc.GetUserEmailRequest request, grpc::CallOptions options)
+      public virtual global::RentalService.Infrastructure.Grpc.UserNameResponse GetUserName(global::RentalService.Infrastructure.Grpc.GetUserNameRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetUserEmail, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetUserName, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::RentalService.Infrastructure.Grpc.UserEmailResponse> GetUserEmailAsync(global::RentalService.Infrastructure.Grpc.GetUserEmailRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::RentalService.Infrastructure.Grpc.UserNameResponse> GetUserNameAsync(global::RentalService.Infrastructure.Grpc.GetUserNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetUserEmailAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetUserNameAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::RentalService.Infrastructure.Grpc.UserEmailResponse> GetUserEmailAsync(global::RentalService.Infrastructure.Grpc.GetUserEmailRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::RentalService.Infrastructure.Grpc.UserNameResponse> GetUserNameAsync(global::RentalService.Infrastructure.Grpc.GetUserNameRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetUserEmail, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetUserName, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

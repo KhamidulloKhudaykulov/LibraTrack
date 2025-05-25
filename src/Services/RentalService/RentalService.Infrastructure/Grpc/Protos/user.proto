@@ -3,13 +3,13 @@ syntax = "proto3";
 option csharp_namespace = "RentalService.Infrastructure.Grpc";
 
 service UserService{
-	rpc GetUserEmail (GetUserEmailRequest) returns (UserEmailResponse);
+	rpc GetUserName (GetUserNameRequest) returns (UserNameResponse);
 }
 
-message GetUserEmailRequest {
+message GetUserNameRequest {
 	string user_id = 1;
 }
 
-message UserEmailResponse {
-	string email = 1;
+message UserNameResponse {
+	string name = 1;
 }

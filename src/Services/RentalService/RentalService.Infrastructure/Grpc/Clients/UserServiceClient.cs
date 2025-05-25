@@ -13,15 +13,15 @@ public class UserServiceClient : IUserServiceClient
         _client = new UserService.UserServiceClient(channel);
     }
 
-    public async Task<string> GetUserEmailAsync(string userId = "")
+    public async Task<string> GetUserNameAsync(string userId = "")
     {
-        GetUserEmailRequest? request;
+        GetUserNameRequest? request;
         if (string.IsNullOrEmpty(userId))
             throw new RpcException(new Status(StatusCode.InvalidArgument, "Enter user id"));
 
-        request = new GetUserEmailRequest { UserId = userId };
+        request = new GetUserNameRequest { UserId = userId };
 
-        var result = await _client.GetUserEmailAsync(request);
-        return result.Email;
+        var result = await _client.GetUserNameAsync(request);
+        return result.Name;
     }
 }

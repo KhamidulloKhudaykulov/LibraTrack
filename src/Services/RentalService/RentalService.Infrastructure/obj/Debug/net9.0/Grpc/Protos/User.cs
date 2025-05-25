@@ -24,16 +24,16 @@ namespace RentalService.Infrastructure.Grpc {
     static UserReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChZHcnBjL1Byb3Rvcy91c2VyLnByb3RvIiYKE0dldFVzZXJFbWFpbFJlcXVl",
-            "c3QSDwoHdXNlcl9pZBgBIAEoCSIiChFVc2VyRW1haWxSZXNwb25zZRINCgVl",
-            "bWFpbBgBIAEoCTJHCgtVc2VyU2VydmljZRI4CgxHZXRVc2VyRW1haWwSFC5H",
-            "ZXRVc2VyRW1haWxSZXF1ZXN0GhIuVXNlckVtYWlsUmVzcG9uc2VCJKoCIVJl",
-            "bnRhbFNlcnZpY2UuSW5mcmFzdHJ1Y3R1cmUuR3JwY2IGcHJvdG8z"));
+            "ChZHcnBjL1Byb3Rvcy91c2VyLnByb3RvIiUKEkdldFVzZXJOYW1lUmVxdWVz",
+            "dBIPCgd1c2VyX2lkGAEgASgJIiAKEFVzZXJOYW1lUmVzcG9uc2USDAoEbmFt",
+            "ZRgBIAEoCTJECgtVc2VyU2VydmljZRI1CgtHZXRVc2VyTmFtZRITLkdldFVz",
+            "ZXJOYW1lUmVxdWVzdBoRLlVzZXJOYW1lUmVzcG9uc2VCJKoCIVJlbnRhbFNl",
+            "cnZpY2UuSW5mcmFzdHJ1Y3R1cmUuR3JwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::RentalService.Infrastructure.Grpc.GetUserEmailRequest), global::RentalService.Infrastructure.Grpc.GetUserEmailRequest.Parser, new[]{ "UserId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RentalService.Infrastructure.Grpc.UserEmailResponse), global::RentalService.Infrastructure.Grpc.UserEmailResponse.Parser, new[]{ "Email" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::RentalService.Infrastructure.Grpc.GetUserNameRequest), global::RentalService.Infrastructure.Grpc.GetUserNameRequest.Parser, new[]{ "UserId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RentalService.Infrastructure.Grpc.UserNameResponse), global::RentalService.Infrastructure.Grpc.UserNameResponse.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
@@ -41,16 +41,16 @@ namespace RentalService.Infrastructure.Grpc {
   }
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetUserEmailRequest : pb::IMessage<GetUserEmailRequest>
+  public sealed partial class GetUserNameRequest : pb::IMessage<GetUserNameRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetUserEmailRequest> _parser = new pb::MessageParser<GetUserEmailRequest>(() => new GetUserEmailRequest());
+    private static readonly pb::MessageParser<GetUserNameRequest> _parser = new pb::MessageParser<GetUserNameRequest>(() => new GetUserNameRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetUserEmailRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetUserNameRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -66,7 +66,7 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetUserEmailRequest() {
+    public GetUserNameRequest() {
       OnConstruction();
     }
 
@@ -74,15 +74,15 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetUserEmailRequest(GetUserEmailRequest other) : this() {
+    public GetUserNameRequest(GetUserNameRequest other) : this() {
       userId_ = other.userId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetUserEmailRequest Clone() {
-      return new GetUserEmailRequest(this);
+    public GetUserNameRequest Clone() {
+      return new GetUserNameRequest(this);
     }
 
     /// <summary>Field number for the "user_id" field.</summary>
@@ -100,12 +100,12 @@ namespace RentalService.Infrastructure.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetUserEmailRequest);
+      return Equals(other as GetUserNameRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetUserEmailRequest other) {
+    public bool Equals(GetUserNameRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -178,7 +178,7 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetUserEmailRequest other) {
+    public void MergeFrom(GetUserNameRequest other) {
       if (other == null) {
         return;
       }
@@ -239,16 +239,16 @@ namespace RentalService.Infrastructure.Grpc {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class UserEmailResponse : pb::IMessage<UserEmailResponse>
+  public sealed partial class UserNameResponse : pb::IMessage<UserNameResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UserEmailResponse> _parser = new pb::MessageParser<UserEmailResponse>(() => new UserEmailResponse());
+    private static readonly pb::MessageParser<UserNameResponse> _parser = new pb::MessageParser<UserNameResponse>(() => new UserNameResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UserEmailResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<UserNameResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -264,7 +264,7 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UserEmailResponse() {
+    public UserNameResponse() {
       OnConstruction();
     }
 
@@ -272,45 +272,45 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UserEmailResponse(UserEmailResponse other) : this() {
-      email_ = other.email_;
+    public UserNameResponse(UserNameResponse other) : this() {
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UserEmailResponse Clone() {
-      return new UserEmailResponse(this);
+    public UserNameResponse Clone() {
+      return new UserNameResponse(this);
     }
 
-    /// <summary>Field number for the "email" field.</summary>
-    public const int EmailFieldNumber = 1;
-    private string email_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Email {
-      get { return email_; }
+    public string Name {
+      get { return name_; }
       set {
-        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as UserEmailResponse);
+      return Equals(other as UserNameResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UserEmailResponse other) {
+    public bool Equals(UserNameResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Email != other.Email) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -318,7 +318,7 @@ namespace RentalService.Infrastructure.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -337,9 +337,9 @@ namespace RentalService.Infrastructure.Grpc {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Email.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Email);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -351,9 +351,9 @@ namespace RentalService.Infrastructure.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Email.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Email);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -365,8 +365,8 @@ namespace RentalService.Infrastructure.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Email.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -376,12 +376,12 @@ namespace RentalService.Infrastructure.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UserEmailResponse other) {
+    public void MergeFrom(UserNameResponse other) {
       if (other == null) {
         return;
       }
-      if (other.Email.Length != 0) {
-        Email = other.Email;
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -403,7 +403,7 @@ namespace RentalService.Infrastructure.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Email = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
@@ -426,7 +426,7 @@ namespace RentalService.Infrastructure.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Email = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
