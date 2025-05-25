@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SearchUser from "../Users/SearchUser";
 import RentPayments from "./RentPayments";
-import { closeRent, getRents, type Rent } from "@/services/rentService";
+import { cancelRent, closeRent, getRents, type Rent } from "@/services/rentService";
 import AddRent from "./AddRent";
 import PaymentFilter from "./PaymetFilter";
 
@@ -13,7 +13,7 @@ const RentsPage = () => {
 
     const filteredRents = rents.filter(rent => {
         const matchesQuery = rent.bookTitle.toLowerCase().includes(query.toLowerCase()) ||
-            rent.userEmail.toLowerCase().includes(query.toLowerCase());
+            rent.userName.toLowerCase().includes(query.toLowerCase());
 
         if (payedQuery === "true") return matchesQuery && Boolean(rent.isPayed) === true;
         if (payedQuery === "false") return matchesQuery && Boolean(rent.isPayed) === false;
@@ -33,6 +33,16 @@ const RentsPage = () => {
     const handleClose = async (id: string) => {
         try {
             await closeRent(id);
+        } catch (error) {
+            alert(error);
+        }
+
+        window.location.reload();
+    }
+
+    const handleCancel = async (id: string) => {
+        try {
+            await cancelRent(id);
         } catch (error) {
             alert(error);
         }
@@ -86,7 +96,7 @@ const RentsPage = () => {
                             key={rent.id}
                             className="flex flex-row p-4 items-start border-b py-2 hover:bg-gray-50 border-gray-200 text-gray-700"
                         >
-                            <p className="flex-1 min-w-0  break-words whitespace-normal self-center">{rent.userEmail}</p>
+                            <p className="flex-1 min-w-0  break-words whitespace-normal self-center">{rent.userName}</p>
                             <p className="flex-1 min-w-0 break-words whitespace-normal self-center">{rent.bookTitle}</p>
                             <p className="flex-1 min-w-0 self-center">{rent.startDate}</p>
                             <p className="flex-1 min-w-0 self-center">{rent.endDate}</p>
@@ -95,8 +105,8 @@ const RentsPage = () => {
                                     {rent.isPayed || rent.isReturned ? "Payed" : "Not payed"}
                                 </p>
                             </div>
-                            <p className={`flex-1 font-semibold min-w-0 self-center ${rent.isReturned ? "text-gray-200" : "text-green-500"}`}>
-                                {rent.isReturned ? "Returned" : "Active"}
+                            <p className={`flex-1 font-semibold min-w-0 self-center ${rent.isReturned ? "text-gray-200" : rent.isDeleted ? "text-red-300" : "text-green-500"}`}>
+                                {rent.isReturned ? "Returned" : rent.isDeleted ? "Canceled" : "Active"}
                             </p>
                             <p className="flex-1 min-w-0 self-center">{rent.price}</p>
                             <div className="flex-1 flex flex-col gap-1 font-bold">
@@ -110,7 +120,9 @@ const RentsPage = () => {
                                     onClick={() => handleClose(rent.id)}>
                                     Returned
                                 </button>
-                                <button className="border-red-500 border-1 text-red-500 rounded-sm px-1 py-1 cursor-pointer hover:bg-red-500 hover:text-white duration-150">
+                                <button
+                                    className="border-red-500 border-1 text-red-500 rounded-sm px-1 py-1 cursor-pointer hover:bg-red-500 hover:text-white duration-150"
+                                    onClick={() => handleCancel(rent.id)}>
                                     Cancel
                                 </button>
                             </div>

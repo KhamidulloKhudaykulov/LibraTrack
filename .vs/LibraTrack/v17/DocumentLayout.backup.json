@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\contracts\\rentresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\contracts\\rentresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.infrastructure\\grpc\\clients\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.infrastructure\\grpc\\clients\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\interfaces\\clients\\iuserserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\interfaces\\clients\\iuserserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.infrastructure\\grpc\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.infrastructure\\grpc\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2066A3C3-51FB-4B4D-BBD5-95179A3AC80B}|src\\Services\\RentalService\\RentalService.Infrastructure\\RentalService.Infrastructure.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\grpc\\services\\accountgrpcservicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.infrastructure\\grpc\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{0116A94A-27D3-4750-B4C4-534246034DD7}|src\\Services\\AccountService\\AccountService.Infrastructure\\AccountService.Infrastructure.csproj|solutionrelative:src\\services\\accountservice\\accountservice.infrastructure\\grpc\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\queries\\getallrentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\commands\\payrentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\contracts\\rentresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\contracts\\rentresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF04DBA5-9490-44C4-96C7-0D9F16A2922E}|src\\Services\\RentalService\\RentalService.Persistence\\RentalService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.persistence\\repositories\\rentalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,24 +118,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "IUserServiceClient.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\Interfaces\\Clients\\IUserServiceClient.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\Interfaces\\Clients\\IUserServiceClient.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\Interfaces\\Clients\\IUserServiceClient.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\Interfaces\\Clients\\IUserServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:56:47.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:55:02.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs*",
-              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Clients\\UserServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T12:54:03.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "user.proto",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-25T12:43:27.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllRentsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwDAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:10:47.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RentResultResponse.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:10:17.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccountGrpcServiceHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Grpc\\Services\\AccountGrpcServiceHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\Grpc\\Services\\AccountGrpcServiceHandler.cs",
@@ -140,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "user.proto",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Infrastructure\\Grpc\\Protos\\user.proto",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Infrastructure\\Grpc\\Protos\\user.proto",
@@ -153,20 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "user.proto",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
-              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
-              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Infrastructure\\Grpc\\Protos\\user.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-05-25T12:43:27.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CloseRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\CloseRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\CloseRentCommandHandler.cs",
@@ -179,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "GenerateRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
@@ -192,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PayRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\PayRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\PayRentCommandHandler.cs",
@@ -205,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CancelRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\CancelRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\CancelRentCommandHandler.cs",
@@ -218,20 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllRentsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
-              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Queries\\GetAllRentsQueryHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:10:47.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "20250525123515_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Persistence\\Migrations\\20250525123515_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Persistence\\Migrations\\20250525123515_Initial.cs",
@@ -244,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "RentalRecord.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Domain\\Entities\\RentalRecord.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Domain\\Entities\\RentalRecord.cs",
@@ -257,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "RentRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
@@ -270,20 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RentResultResponse.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
-              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
-              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Contracts\\RentResultResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:10:17.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "RentalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Persistence\\Repositories\\RentalRecordRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Persistence\\Repositories\\RentalRecordRepository.cs",
@@ -296,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IRentalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Domain\\Repositories\\IRentalRecordRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Domain\\Repositories\\IRentalRecordRepository.cs",
@@ -309,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Domain\\Primitives\\Entity.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Domain\\Primitives\\Entity.cs",
@@ -322,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "RentGeneratedDomainEvent.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Domain\\Events\\RentGeneratedDomainEvent.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Domain\\Events\\RentGeneratedDomainEvent.cs",
@@ -334,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
@@ -346,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AddQuantityCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
@@ -358,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "InventoryControllers.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
@@ -370,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
@@ -382,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "GetAvailableItemQuantityQuery.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableItemQuantityQuery.cs",
@@ -394,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20250524025119_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250524025119_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250524025119_Initial.cs",
@@ -406,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\ItemRepository.cs",
@@ -418,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\ApplicationDbContext.cs",

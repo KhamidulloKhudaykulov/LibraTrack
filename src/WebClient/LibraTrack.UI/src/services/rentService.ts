@@ -1,12 +1,13 @@
 export interface Rent {
   id: string;
-  userEmail: string;
+  userName: string;
   bookTitle: string;
   startDate: string;
   endDate: string;
   price: string;
   isPayed: string;
   isReturned: string;
+  isDeleted: string;
 }
 
 export type AddRentCommand = {
@@ -93,6 +94,24 @@ export async function closeRent(id: string) {
   try {
     const response = await fetch(`https://localhost:7012/api/rents/close?rentId=${id}`, {
       method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`Server error: ${response.status} - ${errorText}`);
+    }
+  } catch (error) {
+    console.error('Error fetching books:', error);
+    throw error;
+  }
+};
+
+export async function cancelRent(id: string) {
+  try {
+    const response = await fetch(`https://localhost:7012/api/rents/cancel?rentId=${id}`, {
+      method: "PUT",
       headers: {
         'Content-Type': 'application/json'
       }

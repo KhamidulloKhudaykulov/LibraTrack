@@ -56,7 +56,7 @@ public class RentRecordsController : ControllerBase
         return BadRequest(result);
     }
 
-    [HttpPut]
+    [HttpPut("cancel")]
     public async Task<IActionResult> Cancel([FromQuery] CancelRentCommand command)
     {
         var result = await _sender.Send(command);

@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
+    "Method": "Cancel",
+    "RelativePath": "api/rents",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
     "Method": "Close",
     "RelativePath": "api/rents/close",
     "HttpMethod": "POST",

@@ -36,7 +36,7 @@ public class AccountGrpcServiceHandler(IUserRepository _userRepository)
 
         return new UserNameResponse
         {
-            Name = $"{user.FirstName} {user.LastName}"
+            Name = $"{user.FirstName.Value} {user.LastName.Value}"
         };
     }
 }
