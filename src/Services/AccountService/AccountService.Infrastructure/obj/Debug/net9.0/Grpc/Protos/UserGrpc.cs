@@ -49,6 +49,10 @@ namespace AccountService.Infrastructure.Grpc {
     static readonly grpc::Marshaller<global::AccountService.Infrastructure.Grpc.GetUserEmailRequest> __Marshaller_GetUserEmailRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AccountService.Infrastructure.Grpc.GetUserEmailRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::AccountService.Infrastructure.Grpc.UserEmailResponse> __Marshaller_UserEmailResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AccountService.Infrastructure.Grpc.UserEmailResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::AccountService.Infrastructure.Grpc.GetUserNameRequest> __Marshaller_GetUserNameRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AccountService.Infrastructure.Grpc.GetUserNameRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::AccountService.Infrastructure.Grpc.UserNameResponse> __Marshaller_UserNameResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AccountService.Infrastructure.Grpc.UserNameResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::AccountService.Infrastructure.Grpc.GetUserEmailRequest, global::AccountService.Infrastructure.Grpc.UserEmailResponse> __Method_GetUserEmail = new grpc::Method<global::AccountService.Infrastructure.Grpc.GetUserEmailRequest, global::AccountService.Infrastructure.Grpc.UserEmailResponse>(
@@ -57,6 +61,14 @@ namespace AccountService.Infrastructure.Grpc {
         "GetUserEmail",
         __Marshaller_GetUserEmailRequest,
         __Marshaller_UserEmailResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::AccountService.Infrastructure.Grpc.GetUserNameRequest, global::AccountService.Infrastructure.Grpc.UserNameResponse> __Method_GetUserName = new grpc::Method<global::AccountService.Infrastructure.Grpc.GetUserNameRequest, global::AccountService.Infrastructure.Grpc.UserNameResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetUserName",
+        __Marshaller_GetUserNameRequest,
+        __Marshaller_UserNameResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -74,6 +86,12 @@ namespace AccountService.Infrastructure.Grpc {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::AccountService.Infrastructure.Grpc.UserNameResponse> GetUserName(global::AccountService.Infrastructure.Grpc.GetUserNameRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -82,7 +100,8 @@ namespace AccountService.Infrastructure.Grpc {
     public static grpc::ServerServiceDefinition BindService(UserServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_GetUserEmail, serviceImpl.GetUserEmail).Build();
+          .AddMethod(__Method_GetUserEmail, serviceImpl.GetUserEmail)
+          .AddMethod(__Method_GetUserName, serviceImpl.GetUserName).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -93,6 +112,7 @@ namespace AccountService.Infrastructure.Grpc {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, UserServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetUserEmail, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::AccountService.Infrastructure.Grpc.GetUserEmailRequest, global::AccountService.Infrastructure.Grpc.UserEmailResponse>(serviceImpl.GetUserEmail));
+      serviceBinder.AddMethod(__Method_GetUserName, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::AccountService.Infrastructure.Grpc.GetUserNameRequest, global::AccountService.Infrastructure.Grpc.UserNameResponse>(serviceImpl.GetUserName));
     }
 
   }

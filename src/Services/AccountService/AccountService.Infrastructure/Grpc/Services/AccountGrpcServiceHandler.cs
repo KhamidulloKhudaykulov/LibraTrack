@@ -22,4 +22,21 @@ public class AccountGrpcServiceHandler(IUserRepository _userRepository)
             Email = user.Email.Value
         };
     }
+
+    public override async Task<UserNameResponse> GetUserName(GetUserNameRequest request, ServerCallContext context)
+    {
+        if (string.IsNullOrEmpty(request.UserId))
+            throw new RpcException(new Status(StatusCode.InvalidArgument, "Enter user id"));
+
+        var user = await _userRepository.SelectAsync(
+            u => u.Id == Guid.Parse(request.UserId));
+
+        if (user is null)
+            throw new RpcException(new Status(StatusCode.NotFound, "User not found"));
+
+        return new UserNameResponse
+        {
+            Name = $"{user.FirstName} {user.LastName}"
+        };
+    }
 }
