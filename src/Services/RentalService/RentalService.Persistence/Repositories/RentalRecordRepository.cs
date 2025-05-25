@@ -53,4 +53,9 @@ public class RentalRecordRepository : IRentalRecordRepository
             : _rentals.Where(expression)))
             .AsQueryable();
     }
+
+    public Task DropAsync(RentalRecord rentalRecord)
+    {
+        throw new NotImplementedException();
+    }
 }
