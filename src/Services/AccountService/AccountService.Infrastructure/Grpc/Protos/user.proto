@@ -4,6 +4,7 @@ option csharp_namespace = "AccountService.Infrastructure.Grpc";
 
 service UserService{
 	rpc GetUserEmail (GetUserEmailRequest) returns (UserEmailResponse);
+	rpc GetUserName (GetUserNameRequest) returns (UserNameResponse);
 }
 
 message GetUserEmailRequest {
@@ -12,4 +13,12 @@ message GetUserEmailRequest {
 
 message UserEmailResponse {
 	string email = 1;
+}
+
+message GetUserNameRequest {
+	string user_id = 1;
+}
+
+message UserNameResponse {
+	string name = 1;
 }
