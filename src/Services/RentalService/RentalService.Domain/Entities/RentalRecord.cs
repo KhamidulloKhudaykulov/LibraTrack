@@ -43,6 +43,11 @@ public class RentalRecord : Entity
         IsPayed = true;
     }
 
+    public void CancelRent(Guid rentId)
+    {
+        IsDeleted = true;
+    }
+
     public static Result<RentalRecord> Create(
         Guid userId,
         Guid bookId,
