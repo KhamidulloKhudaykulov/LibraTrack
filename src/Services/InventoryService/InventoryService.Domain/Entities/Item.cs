@@ -39,6 +39,11 @@ public class Item : Entity
         return item;
     }
 
+    public void AddAmount(int amount)
+    {
+        Amount += amount;
+    }
+
     public void AddAvailableQuantity(int quantity)
     {
         AvailableQuantity += quantity;
