@@ -53,7 +53,7 @@ public class RentRecordsController : ControllerBase
         if (result.IsSuccess)
             return Ok(result);
 
-        return BadRequest(result);
+        return BadRequest(result.Error);
     }
 
     [HttpPut("cancel")]
