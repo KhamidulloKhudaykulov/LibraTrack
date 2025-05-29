@@ -1,5 +1,4 @@
 ﻿using InventoryService.Application.Abstractions.Messaging;
-using InventoryService.Domain.Entities;
 using InventoryService.Domain.Repositories;
 using InventoryService.Domain.Shared;
 
