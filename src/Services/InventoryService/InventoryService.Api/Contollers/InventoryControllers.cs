@@ -25,7 +25,19 @@ public class InventoryControllers : ControllerBase
             return BadRequest(response.Error);
         }
 
-        return Ok(response);
+        return Ok(response.Value);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll([FromQuery]GetItemsFromInventoryQuery query)
+    {
+        var response = await _sender.Send(query);
+        if (response.IsFailure)
+        {
+            return BadRequest(response.Error);
+        }
+
+        return Ok(response.Value);
     }
 
     [HttpPut("deduct")]
@@ -49,7 +61,7 @@ public class InventoryControllers : ControllerBase
             return BadRequest(response.Error);
         }
 
-        return Ok(response);
+        return Ok(response.Value);
     }
 
     [HttpGet("quantity")]
@@ -61,6 +73,6 @@ public class InventoryControllers : ControllerBase
             return BadRequest(response.Error);
         }
 
-        return Ok(response);
+        return Ok(response.Value);
     }
 }
