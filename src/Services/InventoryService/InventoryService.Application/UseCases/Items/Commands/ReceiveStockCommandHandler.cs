@@ -28,17 +28,18 @@ public class ReceiveStockCommandHandler(
                 message: $"This product with ID={request.productId} is not found"));
         }
 
-        var stock = await _itemRepository.SelectAsync(i => i.ProductId == request.productId);
+        //var stock = await _itemRepository
+        //    .SelectAsync(i => i.ProductId == request.productId && i.Price == request.price);
 
-        if (stock is not null)
-        {
-            stock.AddAvailableQuantity(request.amount);
+        //if (stock is not null)
+        //{
+        //    stock.AddAmount(request.amount);
 
-            await _itemRepository.UpdateAsync(stock);
-            await _unitOfWork.SaveChangesAsync();
+        //    await _itemRepository.UpdateAsync(stock);
+        //    await _unitOfWork.SaveChangesAsync();
 
-            return stock;
-        }
+        //    return stock;
+        //}
 
         var newStock = Item.Create(request.productId, request.amount, request.amount, request.price);
 
