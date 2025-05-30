@@ -5,38 +5,38 @@ using System.Linq.Expressions;
 
 namespace InventoryService.Persistence.Repositories;
 
-public class ItemRepository : IItemRepository
+public class StockEntryRepository : IStockEntryRepository
 {
     private readonly ApplicationDbContext _context;
-    private readonly DbSet<Item> _items;
+    private readonly DbSet<StockEntry> _items;
 
-    public ItemRepository(ApplicationDbContext context)
+    public StockEntryRepository(ApplicationDbContext context)
     {
         _context = context;
-        _items = _context.Set<Item>();
+        _items = _context.Set<StockEntry>();
     }
 
-    public async Task<Item> InsertAsync(Item item)
+    public async Task<StockEntry> InsertAsync(StockEntry item)
     {
         return (await _items.AddAsync(item)).Entity;
     }
 
-    public async Task<Item> UpdateAsync(Item item)
+    public async Task<StockEntry> UpdateAsync(StockEntry item)
     {
         return (await Task.FromResult(_items.Update(item))).Entity;
     }
 
-    public async Task DeleteAsync(Item item)
+    public async Task DeleteAsync(StockEntry item)
     {
         await Task.FromResult(_items.Remove(item));
     }
 
-    public async Task<Item> SelectAsync(Expression<Func<Item, bool>> expression)
+    public async Task<StockEntry> SelectAsync(Expression<Func<StockEntry, bool>> expression)
     {
         return await _items.FirstOrDefaultAsync(expression);
     }
 
-    public async Task<IEnumerable<Item>> SelectAllAsync(Expression<Func<Item, bool>>? expression = null)
+    public async Task<IEnumerable<StockEntry>> SelectAllAsync(Expression<Func<StockEntry, bool>>? expression = null)
     {
         var items = expression is null
             ? _items
