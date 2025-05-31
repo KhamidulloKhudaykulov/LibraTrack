@@ -23,7 +23,7 @@ public class RentRecordsController : ControllerBase
         if (result.IsSuccess)
             return Ok(result.Value);
 
-        return BadRequest(result.Value);
+        return BadRequest(result.Error);
     }
 
     [HttpGet]
@@ -33,7 +33,7 @@ public class RentRecordsController : ControllerBase
         if (result.IsSuccess)
             return Ok(result.Value);
 
-        return BadRequest(result.Value);
+        return BadRequest(result.Error);
     }
 
     [HttpPost("close")]
@@ -43,7 +43,7 @@ public class RentRecordsController : ControllerBase
         if (result.IsSuccess)
             return Ok(result);
 
-        return BadRequest(result);
+        return BadRequest(result.Error);
     }
 
     [HttpPut("pay")]
@@ -63,6 +63,6 @@ public class RentRecordsController : ControllerBase
         if (result.IsSuccess)
             return Ok(result);
 
-        return BadRequest(result);
+        return BadRequest(result.Error);
     }
 }

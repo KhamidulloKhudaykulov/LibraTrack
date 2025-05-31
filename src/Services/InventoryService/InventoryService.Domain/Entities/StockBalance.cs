@@ -3,9 +3,9 @@ using InventoryService.Domain.Shared;
 
 namespace InventoryService.Domain.Entities;
 
-public class Warehouse : Entity
+public class StockBalance : Entity
 {
-    private Warehouse(Guid productId, int availableQuantity)
+    private StockBalance(Guid productId, int availableQuantity)
     {
         ProductId = productId;
         AvailableQuantity = availableQuantity;
@@ -14,9 +14,9 @@ public class Warehouse : Entity
     public Guid ProductId { get; set; }
     public int AvailableQuantity { get; set; }
 
-    public Result<Warehouse> Create(Guid productId, int availableQuantity)
+    public static Result<StockBalance> Create(Guid productId, int availableQuantity)
     {
-        return new Warehouse(productId, availableQuantity);
+        return new StockBalance(productId, availableQuantity);
     }
 
     public void AddQuantity(int quantity)

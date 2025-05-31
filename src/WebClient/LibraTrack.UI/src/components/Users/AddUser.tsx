@@ -24,23 +24,23 @@ const AddUser = () => {
             <button className="pr-8 pl-8 p-1 text-white bg-blue-500 rounded-md cursor-pointer shadow-sm hover:rounded-lg transition-all duration-300"
                 onClick={() => setShowAddModal(true)}
             >
-                Add User
+                Добавить пользователя
             </button>
 
             {showAddModal && (
                 <div className="bg-opacity fixed inset-0 bg-opacity-40 flex justify-center items-center z-50">
                     <div className="bg-white p-6 rounded-md shadow-lg p-8 w-100">
-                        <h2 className="text-xl font-bold mb-4">Add New User</h2>
+                        <h2 className="text-xl font-bold mb-4">Добавить пользователя</h2>
                         <div className="flex flex-col gap-3">
                             <input
                                 type="text"
-                                placeholder="First name"
+                                placeholder="Имя"
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
                                 className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input
                                 type="text"
-                                placeholder="Last name"
+                                placeholder="Фамилия"
                                 value={lastName}
                                 onChange={(e) => setLastName(e.target.value)}
                                 className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" /> <input type="text"
@@ -49,12 +49,12 @@ const AddUser = () => {
                                     onChange={(e) => setEmail(e.target.value)}
                                     className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input type="text"
-                                placeholder="Phone number"
+                                placeholder="Номер телефона"
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                                 className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
                             <input type="text"
-                                placeholder="Passport number"
+                                placeholder="Пасспорт данные"
                                 onChange={(e) => setPassportNumber(e.target.value)}
                                 value={passportNumber}
                                 className="p-2 bg-gray-50 rounded-md w-full pl-4 focus:outline-none focus:ring-2 focus:ring-blue-400 duration-150" />
@@ -63,13 +63,13 @@ const AddUser = () => {
                             className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
                             onClick={() => setShowAddModal(false)}
                         >
-                            Close
+                            Закрыть
                         </button>
                         <button
                             className="mt-4 ml-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
                             onClick={() => handleAdd()}
                         >
-                            Save
+                            Сохранить
                         </button>
                     </div>
                 </div>

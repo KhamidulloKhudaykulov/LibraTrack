@@ -2,6 +2,9 @@
 using RentalService.Application.UseCases.RentalRecords.Contracts;
 using RentalService.Domain.Repositories;
 using RentalService.Domain.Shared;
+using System.Net.Http;
+using System.Text.Json;
+using System.Text;
 
 namespace RentalService.Application.UseCases.RentalRecords.Commands;
 
@@ -10,7 +13,8 @@ public record CancelRentCommand(
 
 public class CancelRentCommandHandler(
     IRentalRecordRepository _rentalRecordRepository,
-    IUnitOfWork _unitOfWork) 
+    IUnitOfWork _unitOfWork,
+    HttpClient _httpClient) 
     : ICommandHandler<CancelRentCommand, RentResultResponse>
 {
     public async Task<Result<RentResultResponse>> Handle(CancelRentCommand request, CancellationToken cancellationToken)
@@ -24,6 +28,21 @@ public class CancelRentCommandHandler(
         }
 
         rent.CancelRent();
+
+        var requestToInventory = new ReceiveProductRequest { ProductId = rent.BookId, Amount = 1 };
+        var content = new StringContent(
+            JsonSerializer.Serialize(requestToInventory),
+            Encoding.UTF8,
+            "application/json");
+
+        var response = await _httpClient.PutAsync("https://localhost:7096/api/inventory/add", content);
+        if (!response.IsSuccessStatusCode)
+        {
+            return Result.Failure<RentResultResponse>(new Error(
+                    code: response.StatusCode.ToString(),
+                    message: response.RequestMessage.ToString()));
+        }
+
         await _rentalRecordRepository.UpdateAsync(rent);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 

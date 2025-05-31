@@ -34,7 +34,7 @@
   {
     "ContainingType": "RentalService.Api.Controllers.RentRecordsController",
     "Method": "Cancel",
-    "RelativePath": "api/rents",
+    "RelativePath": "api/rents/cancel",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

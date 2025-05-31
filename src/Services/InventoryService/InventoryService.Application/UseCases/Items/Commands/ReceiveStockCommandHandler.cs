@@ -10,42 +10,43 @@ public record ReceiveStockCommand(
     Guid productId,
     int amount,
     decimal price
-    ) : ICommand<Item>;
+    ) : ICommand<StockEntry>;
 
 public class ReceiveStockCommandHandler(
-    IItemRepository _itemRepository,
+    IStockEntryRepository _itemRepository,
+    IStockBalanceRepository _stockBalanceRepository,
     IUnitOfWork _unitOfWork,
     IBookServiceClient _bookServiceClient) 
-    : ICommandHandler<ReceiveStockCommand, Item>
+    : ICommandHandler<ReceiveStockCommand, StockEntry>
 {
-    public async Task<Result<Item>> Handle(ReceiveStockCommand request, CancellationToken cancellationToken)
+    public async Task<Result<StockEntry>> Handle(ReceiveStockCommand request, CancellationToken cancellationToken)
     {
         var book = await _bookServiceClient.GetBookNameAsync(request.productId.ToString());
         if (book is null)
         {
-            return Result.Failure<Item>(new Error(
+            return Result.Failure<StockEntry>(new Error(
                 code: "Product.NotFound",
                 message: $"This product with ID={request.productId} is not found"));
         }
 
-        //var stock = await _itemRepository
-        //    .SelectAsync(i => i.ProductId == request.productId && i.Price == request.price);
+        var existProduct = await _stockBalanceRepository.SelectAsync(
+            s => s.ProductId == request.productId);
 
-        //if (stock is not null)
-        //{
-        //    stock.AddAmount(request.amount);
+        if (existProduct is not null)
+        {
+            existProduct.AddQuantity(request.amount);
+        }
+        else
+        {
+            var newStockBalance = StockBalance.Create(request.productId, request.amount).Value;
+            await _stockBalanceRepository.InsertAsync(newStockBalance);
+        }
 
-        //    await _itemRepository.UpdateAsync(stock);
-        //    await _unitOfWork.SaveChangesAsync();
-
-        //    return stock;
-        //}
-
-        var newStock = Item.Create(request.productId, request.amount, request.amount, request.price);
+        var newStock = StockEntry.Create(request.productId, request.amount, request.amount, request.price);
 
         await _itemRepository.InsertAsync(newStock.Value);
         await _unitOfWork.SaveChangesAsync();
 
-        return newStock;
+        return Result.Success(newStock.Value);
     }
 }

@@ -6,14 +6,14 @@ using InventoryService.Domain.Shared;
 
 namespace InventoryService.Application.UseCases.Items.Queries;
 
-public class GetItemsFromInventoryQuery : IQuery<List<GetItemsResponse>>;
+public class GetStockEntriesFromInventoryQuery : IQuery<List<GetItemsResponse>>;
 
-public class GetItemsFromInventoryQueryHandler(
-    IItemRepository _itemRepository,
+public class GetStockEntriesFromInventoryQueryHandler(
+    IStockEntryRepository _itemRepository,
     IBookServiceClient _bookServiceClient) 
-    : IQueryHandler<GetItemsFromInventoryQuery, List<GetItemsResponse>>
+    : IQueryHandler<GetStockEntriesFromInventoryQuery, List<GetItemsResponse>>
 {
-    public async Task<Result<List<GetItemsResponse>>> Handle(GetItemsFromInventoryQuery request, CancellationToken cancellationToken)
+    public async Task<Result<List<GetItemsResponse>>> Handle(GetStockEntriesFromInventoryQuery request, CancellationToken cancellationToken)
     {
         var distinctBookIds = (await _itemRepository.SelectAllAsync())
             .Select(x => x.ProductId).Distinct();
@@ -30,7 +30,6 @@ public class GetItemsFromInventoryQueryHandler(
         {
             Id = i.Id,
             ProductName = bookTitles[i.ProductId],
-            AvailableQuantity = i.AvailableQuantity,
             Amount = i.Amount,
             Price = i.Price,
             TotalPrice = i.TotalPrice,

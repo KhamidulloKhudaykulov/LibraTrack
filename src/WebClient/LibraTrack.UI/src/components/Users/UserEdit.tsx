@@ -38,13 +38,13 @@ const UserEdit = ({ user, onClose }: UserEditProps) => {
     <div className="fixed inset-0 bg-opacity flex justify-center items-center z-50">
       <div className="bg-white rounded-lg p-6 shadow-2xl w-[400px]">
         <h2 className="text-xl font-bold mb-4">Edit User</h2>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 duration-150">
           <input
             type="text"
             placeholder="id"
             value={id}
             onChange={(e) => setId(e.target.value)}
-            className="p-2 bg-gray-50 border-blue-100 border focus:ring-1 focus:border-blue-400 focus:outline-none rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:ring-1 focus:border-blue-400 focus:outline-none rounded-md w-full pl-4"
             disabled
           />
           <input
@@ -52,45 +52,45 @@ const UserEdit = ({ user, onClose }: UserEditProps) => {
             placeholder="First name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
-            className="p-2 bg-gray-50 border border-blue-200 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
           />
           <input
             type="text"
             placeholder="Last name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
-            className="p-2 bg-gray-50 border border-blue-200 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
           />
           <input
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="p-2 bg-gray-50 border border-blue-200 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
           />
           <input
             type="text"
             placeholder="Passport number"
             value={passportNumber}
             onChange={(e) => setPassportNumber(e.target.value)}
-            className="p-2 bg-gray-50 border border-blue-200 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
           />
           <input
             type="text"
             placeholder="Phone number"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
-            className="p-2 bg-gray-50 border border-blue-200 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
+            className="p-2 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:border-blue-200 duration-150 rounded-md w-full pl-4"
           />
         </div>
         <button
-          className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+          className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 duration-150"
           onClick={onClose}
         >
           Close
         </button>
         <button
-          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 ml-1"
+          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 ml-1 "
           onClick={onSave}
         >
           Save

@@ -22,16 +22,13 @@ namespace InventoryService.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("InventoryService.Domain.Entities.Item", b =>
+            modelBuilder.Entity("InventoryService.Domain.Entities.StockEntry", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
                     b.Property<int>("Amount")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("AvailableQuantity")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("Price")
@@ -43,6 +40,23 @@ namespace InventoryService.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ItemStock", (string)null);
+                });
+
+            modelBuilder.Entity("InventoryService.Domain.Entities.Warehouse", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("AvailableQuantity")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("warehouse", (string)null);
                 });
 #pragma warning restore 612, 618
         }

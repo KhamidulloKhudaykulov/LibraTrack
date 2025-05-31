@@ -79,8 +79,8 @@ export async function addRent(command: AddRentCommand) {
       body: JSON.stringify(data)
     });
     if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`Server error: ${response.status} - ${errorText}`);
+      const errorData = await response.json();
+      throw new Error(`${errorData.message}`);
     }
     const result: Rent[] = await response.json();
     return result;
@@ -119,6 +119,24 @@ export async function cancelRent(id: string) {
     if (!response.ok) {
       const errorText = await response.text();
       throw new Error(`Server error: ${response.status} - ${errorText}`);
+    }
+  } catch (error) {
+    console.error('Error fetching books:', error);
+    throw error;
+  }
+}
+
+export async function payRent(id: string) {
+  try {
+    const response = await fetch(`https://localhost:7012/api/rents/pay?rentId=${id}`, {
+      method: "PUT",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!response.ok) {
+      const errorText = await response.json();
+      throw new Error(`Server error: ${response.status}\nMessage: ${errorText.message}`);
     }
   } catch (error) {
     console.error('Error fetching books:', error);

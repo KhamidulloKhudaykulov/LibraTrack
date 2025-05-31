@@ -32,18 +32,18 @@ export const BooksPage = () => {
         return matchesQuery;
     });
     return (
-        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto">
+        <div className="bg-white w-full rounded-xl flex flex-col h-auto flex-1">
             <div className="flex flex-row items-center relative p-4">
                 <SearchBook value={query} onChange={setQuery} />
                 <AddBook />
             </div>
             <div className="flex flex-row border-t border-b border-gray-200 font-bold text-gray-400 p-4">
-                <h2 className="flex-1 items-center">Title</h2>
-                <h2 className="flex-1 items-center">Description</h2>
-                <h2 className="flex-1 items-center">Author</h2>
-                <h2 className="flex-1 items-center">Publisher</h2>
-                <h2 className="flex-1 items-center">Price</h2>
-                <h2 className="flex-1 items-center">Actions</h2>
+                <h2 className="flex-1 items-center">Заголовок</h2>
+                <h2 className="flex-1 items-center">Описание</h2>
+                <h2 className="flex-1 items-center">Автор</h2>
+                <h2 className="flex-1 items-center">Издатель</h2>
+                <h2 className="flex-1 items-center">Цена</h2>
+                <h2 className="flex-1 items-center">Действия</h2>
             </div>
             {loading &&
                 <div className="w-full flex flex-row items-center justify-center flex-1">
@@ -60,8 +60,9 @@ export const BooksPage = () => {
             )}
             {filteredBooks.map((book) => (
                 <div
+                    onClick={() => { setShowEditModal(true); setSelectedBook(book); }}
                     key={book.id}
-                    className="flex flex-row p-4 border-b py-6 hover:bg-gray-50 border-gray-200 text-gray-700">
+                    className="flex flex-row p-4 border-b py-4 hover:bg-gray-50 border-gray-200 text-gray-700">
                     <p className="flex-1 h-auto font-bold">{book.title}</p>
                     <p className="flex-1 truncate">{book.description}</p>
                     <p className="flex-1 truncate">{book.author}</p>
@@ -70,7 +71,7 @@ export const BooksPage = () => {
                     <div className="flex-1">
                         <button
                             className="text-blue-500 hover:underline mr-2 font-bold cursor-pointer"
-                            onClick={() => { setShowEditModal(true); setSelectedBook(book); }}>Edit</button>
+                            onClick={() => { setShowEditModal(true); setSelectedBook(book); }}>Редактировать</button>
                     </div>
                 </div>
             ))}

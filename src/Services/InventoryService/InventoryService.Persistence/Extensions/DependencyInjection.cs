@@ -12,7 +12,8 @@ public static class DependencyInjection
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        services.AddScoped<IItemRepository, ItemRepository>();
+        services.AddScoped<IStockEntryRepository, StockEntryRepository>();
+        services.AddScoped<IStockBalanceRepository, StockBalanceRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         services.AddDbContext<ApplicationDbContext>(options =>

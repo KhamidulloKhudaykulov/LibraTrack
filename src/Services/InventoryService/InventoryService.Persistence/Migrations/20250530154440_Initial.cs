@@ -18,12 +18,24 @@ namespace InventoryService.Persistence.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     ProductId = table.Column<Guid>(type: "uuid", nullable: false),
                     Amount = table.Column<int>(type: "integer", nullable: false),
-                    AvailableQuantity = table.Column<int>(type: "integer", nullable: false),
                     Price = table.Column<decimal>(type: "numeric", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ItemStock", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "warehouse",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    ProductId = table.Column<Guid>(type: "uuid", nullable: false),
+                    AvailableQuantity = table.Column<int>(type: "integer", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_warehouse", x => x.Id);
                 });
         }
 
@@ -32,6 +44,9 @@ namespace InventoryService.Persistence.Migrations
         {
             migrationBuilder.DropTable(
                 name: "ItemStock");
+
+            migrationBuilder.DropTable(
+                name: "warehouse");
         }
     }
 }

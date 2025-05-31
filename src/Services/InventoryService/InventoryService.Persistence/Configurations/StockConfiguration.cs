@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace InventoryService.Persistence.Configurations;
 
-public class ItemConfiguration : IEntityTypeConfiguration<Item>
+public class StockConfiguration : IEntityTypeConfiguration<StockEntry>
 {
-    public void Configure(EntityTypeBuilder<Item> builder)
+    public void Configure(EntityTypeBuilder<StockEntry> builder)
     {
         builder.ToTable("ItemStock");
 

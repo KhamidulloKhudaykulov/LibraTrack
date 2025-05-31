@@ -19,6 +19,7 @@ builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddInfrastructure();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -29,7 +29,7 @@ public class InventoryControllers : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAll([FromQuery]GetItemsFromInventoryQuery query)
+    public async Task<IActionResult> GetAll([FromQuery] GetStockEntriesFromInventoryQuery query)
     {
         var response = await _sender.Send(query);
         if (response.IsFailure)
@@ -41,7 +41,7 @@ public class InventoryControllers : ControllerBase
     }
 
     [HttpPut("deduct")]
-    public async Task<IActionResult> DeductItem([FromBody]DeductItemFromStockCommand command)
+    public async Task<IActionResult> DeductItem([FromBody] RemoveStockFromInventoryCommand command)
     {
         var response = await _sender.Send(command);
         if (response.IsFailure)
@@ -65,7 +65,7 @@ public class InventoryControllers : ControllerBase
     }
 
     [HttpGet("quantity")]
-    public async Task<IActionResult> GetQuantity([FromQuery]GetAvailableItemQuantityQuery query)
+    public async Task<IActionResult> GetQuantity([FromQuery] GetAvailableQuantityFromStockBalanceQuery query)
     {
         var response = await _sender.Send(query);
         if (response.IsFailure)

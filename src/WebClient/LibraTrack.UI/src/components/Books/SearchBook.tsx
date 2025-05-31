@@ -4,7 +4,7 @@ type SearchBookInputsProps = {
     placeholder?: string;
 }
 
-const SearchBook = ({ value, onChange, placeholder = "Search..." }: SearchBookInputsProps) => {
+const SearchBook = ({ value, onChange, placeholder = "Искать по названию..." }: SearchBookInputsProps) => {
     return (
         <input
             type="text"

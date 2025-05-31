@@ -37,7 +37,7 @@ const BookEdit = ({ book, onClose }: BookEditProps) => {
   return (
     <div className="fixed inset-0 bg-opacity flex justify-center items-center z-50">
       <div className="bg-white rounded-lg p-6 shadow-2xl w-[400px]">
-        <h2 className="text-xl font-bold mb-4">Edit User</h2>
+        <h2 className="text-xl font-bold mb-4">Редактировать</h2>
         <div className="flex flex-col gap-1">
           <input
             type="text"
@@ -49,35 +49,35 @@ const BookEdit = ({ book, onClose }: BookEditProps) => {
           />
           <input
             type="text"
-            placeholder="Title"
+            placeholder="Заголовок"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
           />
           <input
             type="text"
-            placeholder="Description"
+            placeholder="Описание"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
           />
           <input
             type="text"
-            placeholder="Author"
+            placeholder="Автор"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
           />
           <input
             type="text"
-            placeholder="Publisher"
+            placeholder="Издатель"
             value={publisher}
             onChange={(e) => setPublisher(e.target.value)}
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
           />
           <input
             type="number"
-            placeholder="Price"
+            placeholder="Цена"
             value={price}
             onChange={(e) => setPrice(e.target.valueAsNumber)}
             className="p-2 bg-gray-100 rounded-md w-full pl-4"
@@ -87,13 +87,13 @@ const BookEdit = ({ book, onClose }: BookEditProps) => {
           className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
           onClick={onClose}
         >
-          Close
+          Закрыть
         </button>
         <button
           className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 ml-1"
           onClick={onSave}
         >
-          Save
+          Сохранить
         </button>
       </div>
     </div>

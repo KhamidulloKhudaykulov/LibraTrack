@@ -1,4 +1,5 @@
 ﻿using InventoryService.Application.Abstractions.Messaging;
+using InventoryService.Domain.Entities;
 using InventoryService.Domain.Repositories;
 using InventoryService.Domain.Shared;
 
@@ -9,23 +10,24 @@ public record AddQuantityCommand(
     int amount) : ICommand<int>;
 
 public class AddQuantityCommandHandler(
-    IItemRepository _itemRepository,
+    IStockBalanceRepository _stockBalanceRepository,
     IUnitOfWork _unitOfWork) : ICommandHandler<AddQuantityCommand, int>
 {
     public async Task<Result<int>> Handle(AddQuantityCommand request, CancellationToken cancellationToken)
     {
-        var item = await _itemRepository.SelectAsync(i => i.ProductId == request.productId);
-        if (item is null)
+        var existItemInRepository = await _stockBalanceRepository.SelectAsync(s => s.ProductId == request.productId);
+
+        if (existItemInRepository is null)
         {
             return Result.Failure<int>(new Error(
                 code: "Product.NotFound",
                 message: $"This product with ID={request.productId} is not found"));
         }
 
-        item.AddAvailableQuantity(request.amount);
-        await _itemRepository.UpdateAsync(item);
+        existItemInRepository.AddQuantity(request.amount);
+        await _stockBalanceRepository.UpdateAsync(existItemInRepository);
         await _unitOfWork.SaveChangesAsync();
 
-        return Result.Success(item.AvailableQuantity);
+        return existItemInRepository.AvailableQuantity;
     }
 }

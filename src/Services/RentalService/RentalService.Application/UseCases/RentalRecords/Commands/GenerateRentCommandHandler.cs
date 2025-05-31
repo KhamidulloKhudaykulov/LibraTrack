@@ -1,8 +1,11 @@
 ﻿using RentalService.Application.Abstractions.Messaging;
 using RentalService.Application.UseCases.RentalRecords.Contracts;
+using RentalService.Application.UseCases.RentalRecords.Queries;
 using RentalService.Domain.Entities;
 using RentalService.Domain.Repositories;
 using RentalService.Domain.Shared;
+using System.Text;
+using System.Text.Json;
 
 namespace RentalService.Application.UseCases.RentalRecords.Commands;
 
@@ -15,7 +18,8 @@ public record GenerateRentCommand(
 
 public class GenerateRentCommandHandler(
     IRentalRecordRepository _rentalRecordRepository,
-    IUnitOfWork _unitOfWork) : ICommandHandler<GenerateRentCommand, RentResultResponse>
+    IUnitOfWork _unitOfWork,
+    HttpClient _httpClient) : ICommandHandler<GenerateRentCommand, RentResultResponse>
 {
     public async Task<Result<RentResultResponse>> Handle(GenerateRentCommand request, CancellationToken cancellationToken)
     {
@@ -30,6 +34,27 @@ public class GenerateRentCommandHandler(
 
         try
         {
+            var requestToInventory = new DeductProductRequest { ProductId = request.bookId, Amount = 1 };
+            var content = new StringContent(
+                JsonSerializer.Serialize(requestToInventory),
+                Encoding.UTF8,
+                "application/json");
+
+            var response = await _httpClient.PutAsync("https://localhost:7096/api/inventory/deduct", content);
+            if (!response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                var errorResponse = JsonSerializer.Deserialize<Error>(
+                        responseContent,
+                        new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+                    );
+
+                return Result.Failure<RentResultResponse>(new Error(
+                    code: errorResponse!.Code.ToString(),
+                    message: errorResponse?.Message ?? "Unknown error"));
+            }
+
             await _rentalRecordRepository.InsertAsync(rent);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
         }
