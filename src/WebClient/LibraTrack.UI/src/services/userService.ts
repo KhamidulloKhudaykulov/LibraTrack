@@ -19,7 +19,7 @@ export type AddUserCommand = {
 
 export async function getUsers(navigate: NavigateFunction): Promise<User[]> {
   try {
-    const response = await fetch("https://localhost:7287/api/users", {
+    const response = await fetch("https://localhost:7036/users-api/api/users", {
       method: "GET",
       credentials: "include",
       headers: {

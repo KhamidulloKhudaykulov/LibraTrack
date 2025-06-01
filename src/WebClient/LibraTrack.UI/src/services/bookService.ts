@@ -17,7 +17,7 @@ export type AddBookCommand = {
 
 export async function getBooks(): Promise<Book[]> {
   try {
-    const response = await fetch('https://localhost:7202/api/books', {
+    const response = await fetch('https://localhost:7036/books-api/api/books', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ export async function getBooks(): Promise<Book[]> {
 
 export async function deleteBook(id: string): Promise<void> {
   try {
-    const response = await fetch(`https://localhost:7202/api/books?id=${id}`, {
+    const response = await fetch(`https://localhost:7036/books-api/api/books?id=${id}`, {
       method: 'DELETE',
     });
 
@@ -62,7 +62,7 @@ export async function updateBook(book: Book): Promise<Book> {
     price: book.price.toString()
   });
 
-  const response = await fetch(`https://localhost:7202/api/books?${params.toString()}`, {
+  const response = await fetch(`https://localhost:7036/books-api/api/books?${params.toString()}`, {
     method: 'PUT'
   });
 
@@ -75,7 +75,7 @@ export async function updateBook(book: Book): Promise<Book> {
 
 export async function addBook(command: AddBookCommand) {
   try{
-    const response = await fetch("https://localhost:7202/api/books", {
+    const response = await fetch("https://localhost:7036/books-api/api/books", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

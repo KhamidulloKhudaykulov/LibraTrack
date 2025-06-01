@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getstockbalancesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,19 +98,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:03:41.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:03:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T08:59:38.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T08:09:25.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wCsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:46:04.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:58:03.065Z",
               "EditorCaption": ""
             },
             {
@@ -107,20 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:46:04.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
@@ -133,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
@@ -146,20 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:58:03.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "GetStockBalanceResponse.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
@@ -167,11 +218,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:27:00.973Z"
+              "WhenOpened": "2025-05-31T07:27:00.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GetStockBalancesQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
@@ -179,11 +231,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:18:04.804Z"
+              "WhenOpened": "2025-05-31T07:18:04.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "InventoryControllers.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
@@ -191,11 +244,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwE8AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:04:20.598Z"
+              "WhenOpened": "2025-05-30T16:04:20.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
@@ -203,11 +257,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:44:29.184Z"
+              "WhenOpened": "2025-05-30T15:44:29.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "RemoveStockFromInventoryCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
@@ -215,11 +270,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:57:07.731Z"
+              "WhenOpened": "2025-05-30T15:57:07.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "StockBalance.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
@@ -227,23 +283,25 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:49:26.111Z"
+              "WhenOpened": "2025-05-30T15:49:26.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "GetStockEntriesFromInventoryQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:03:36.289Z"
+              "WhenOpened": "2025-05-30T16:03:36.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "IStockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
@@ -251,11 +309,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:50:17.621Z"
+              "WhenOpened": "2025-05-30T15:50:17.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
@@ -263,11 +322,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T06:18:06.444Z"
+              "WhenOpened": "2025-05-31T06:18:06.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "RentRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
@@ -275,11 +335,12 @@
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T06:54:46.54Z"
+              "WhenOpened": "2025-05-31T06:54:46.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ReceiveStockCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
@@ -287,11 +348,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:46:58.174Z"
+              "WhenOpened": "2025-05-30T15:46:58.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "GenerateRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
@@ -304,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AddQuantityCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
@@ -312,11 +374,12 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:05:25.04Z"
+              "WhenOpened": "2025-05-30T16:05:25.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "20250530154440_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
@@ -324,7 +387,8 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:44:40.896Z"
+              "WhenOpened": "2025-05-30T15:44:40.896Z",
+              "EditorCaption": ""
             }
           ]
         }
