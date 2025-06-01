@@ -47,7 +47,7 @@ app.UseHttpsRedirection();
 
 app.UseHangfireDashboard();
 
-app.UseCors("AllowLocalhost5173");
+//app.UseCors("AllowLocalhost5173");
 
 app.MapGrpcService<AccountGrpcServiceHandler>();
 

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,30 +98,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
               "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T09:03:41.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
               "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T09:03:08.159Z",
               "EditorCaption": ""
@@ -134,20 +138,20 @@
               "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
               "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-01T08:59:38.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
               "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T08:09:25.397Z",
               "EditorCaption": ""
@@ -167,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
@@ -177,10 +181,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T14:58:03.065Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
