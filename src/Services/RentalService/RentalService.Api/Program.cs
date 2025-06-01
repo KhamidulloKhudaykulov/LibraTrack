@@ -36,6 +36,4 @@ app.MapControllers();
 
 app.UseBackgroundJobs();
 
-app.UseCors("AllowLocalhost5173");
-
 app.Run();
