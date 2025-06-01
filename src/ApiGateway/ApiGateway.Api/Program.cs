@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 
-//builder.Services.AddAuthorization();
+builder.Services.AddAuthorization();
 
 builder.Services.AddServices(builder.Configuration);
 
@@ -17,10 +17,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("AllowLocalhost5173");
+
 app.MapReverseProxy();
 
-//app.UseAuthentication();
+app.UseAuthentication();
 
-//app.UseAuthorization();
+app.UseAuthorization();
 
 app.Run();
