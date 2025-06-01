@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Persistence", "src\Services\InventoryService\InventoryService.Persistence\InventoryService.Persistence.csproj", "{85BF447A-5BAC-4E10-A561-AE529CE477D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.Api", "src\ApiGateway\ApiGateway.Api\ApiGateway.Api.csproj", "{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,10 @@ Global
 		{85BF447A-5BAC-4E10-A561-AE529CE477D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85BF447A-5BAC-4E10-A561-AE529CE477D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85BF447A-5BAC-4E10-A561-AE529CE477D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,5 +237,7 @@ Global
 		{95043E20-3548-4419-8719-EF5310BF7144} = {383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}
 		{5EE5B5CA-95F9-4758-9AF2-831EB90B1973} = {383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}
 		{85BF447A-5BAC-4E10-A561-AE529CE477D4} = {383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}
+		{E688E4D2-2882-40C0-B1CB-93DBB219DEBE} = {8D56FCD0-407E-4056-9072-2558FAE16E36}
+		{88CC0E16-4613-49FC-B1A8-E0B94D54FE13} = {E688E4D2-2882-40C0-B1CB-93DBB219DEBE}
 	EndGlobalSection
 EndGlobal

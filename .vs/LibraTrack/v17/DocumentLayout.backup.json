@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,15 +86,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:09:25.397Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
@@ -129,20 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
               "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAIAwwEoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T14:58:03.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GetStockBalanceResponse.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GetStockBalancesQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
@@ -166,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "InventoryControllers.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
@@ -178,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
@@ -190,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RemoveStockFromInventoryCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
@@ -202,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "StockBalance.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
@@ -214,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GetStockEntriesFromInventoryQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
@@ -226,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IStockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
@@ -238,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
@@ -250,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "RentRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
@@ -262,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ReceiveStockCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
@@ -274,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GenerateRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
@@ -287,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddQuantityCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
@@ -299,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20250530154440_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
