@@ -38,4 +38,12 @@ public class StockBalanceRepository : IStockBalanceRepository
             ? _stockBalances.FirstOrDefaultAsync() 
             : _stockBalances.FirstOrDefaultAsync(expression));
     }
+
+    public async Task<IEnumerable<StockBalance>> SelectAllAsync(Expression<Func<StockBalance, bool>> expression = null)
+    {
+        return await Task.FromResult(
+                expression is null 
+                ? _stockBalances 
+                : _stockBalances.Where(expression));
+    }
 }

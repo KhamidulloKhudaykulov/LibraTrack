@@ -1,5 +1,6 @@
 import { addUser } from "@/services/userService";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AddUser = () => {
     const [firstName, setFirstName] = useState('');
@@ -8,10 +9,12 @@ const AddUser = () => {
     const [passportNumber, setPassportNumber] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
 
+    const navigate = useNavigate();
+
     const [showAddModal, setShowAddModal] = useState(false);
     const handleAdd = async () => {
         try {
-            await addUser({ firstName, lastName, email, passportNumber, phoneNumber });
+            await addUser({ firstName, lastName, email, passportNumber, phoneNumber }, navigate);
         }
         catch (error) {
             alert(error);

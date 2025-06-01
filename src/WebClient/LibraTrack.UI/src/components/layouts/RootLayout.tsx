@@ -87,7 +87,7 @@ const RootLayout = () => {
           <input
             type="text"
             placeholder="Искать по ФИО"
-            className="w-72 rounded-lg h-8 px-4 border border-gray-200 text-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150"
+            className="w-72 rounded-lg h-12 px-4 border border-gray-200 text-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-400 hover:border-blue-200 duration-150"
           />
           <UserAccount />
         </div>

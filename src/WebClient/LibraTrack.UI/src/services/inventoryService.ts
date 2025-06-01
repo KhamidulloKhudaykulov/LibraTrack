@@ -14,6 +14,12 @@ export type AddItemCommand = {
     price: number;
 }
 
+export interface StockBalance {
+    id : string;
+    productName: string;
+    availableQuantity: number;
+}
+
 export async function getInventoryItems() {
     try {
         const response = await fetch('https://localhost:7096/api/inventory', {
@@ -28,6 +34,27 @@ export async function getInventoryItems() {
         }
 
         const data: Item[] = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching items:', error);
+        throw error;
+    }
+};
+
+export async function getInventoryStockBalances() {
+    try {
+        const response = await fetch('https://localhost:7096/api/inventory/stockBalances', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        if (!response.ok) {
+            throw new Error(`Server error: ${response.status}`);
+        }
+
+        const data: StockBalance[] = await response.json();
         return data;
     } catch (error) {
         console.error('Error fetching items:', error);

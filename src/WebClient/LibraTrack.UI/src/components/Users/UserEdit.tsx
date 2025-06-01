@@ -1,5 +1,6 @@
 import { editUser, type User } from "@/services/userService";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 type UserEditProps = {
   user: User;
@@ -14,6 +15,8 @@ const UserEdit = ({ user, onClose }: UserEditProps) => {
   const [passportNumber, setPassportNumber] = useState(user.passportNumber);
   const [phoneNumber, setPhoneNumber] = useState(user.phoneNumber);
 
+  const navigate = useNavigate();
+
   const onSave = async () => {
     const updatedUser: User = {
       id,
@@ -25,7 +28,7 @@ const UserEdit = ({ user, onClose }: UserEditProps) => {
     };
 
     try {
-      const response = await editUser(updatedUser);
+      const response = await editUser(updatedUser, navigate);
       console.log("User updated:", response);
       onClose();
       window.location.reload();

@@ -58,4 +58,20 @@ public class AdminsController : ControllerBase
             return BadRequest(ex.Message.ToString());
         }
     }
+
+    [HttpPost("logout")]
+    [Authorize]
+    public async Task<IActionResult> Logout()
+    {
+        Response.Cookies.Append("access-token", "", new CookieOptions
+        {
+            Expires = DateTimeOffset.UtcNow.AddDays(-1), // o'tgan vaqt qilib qo'yamiz
+            HttpOnly = true,
+            Secure = true,
+            SameSite = SameSiteMode.None,
+        });
+
+        await Task.CompletedTask;
+        return NoContent();
+    }
 }

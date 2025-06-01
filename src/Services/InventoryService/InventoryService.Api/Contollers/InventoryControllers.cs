@@ -75,4 +75,16 @@ public class InventoryControllers : ControllerBase
 
         return Ok(response.Value);
     }
+
+    [HttpGet("stockBalances")]
+    public async Task<IActionResult> GetStockBalances([FromQuery] GetStockBalancesQuery query)
+    {
+        var response = await _sender.Send(query);
+        if (response.IsFailure)
+        {
+            return BadRequest(response.Error);
+        }
+
+        return Ok(response.Value);
+    }
 }

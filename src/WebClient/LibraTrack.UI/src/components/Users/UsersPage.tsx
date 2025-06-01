@@ -4,7 +4,7 @@ import { activeUser, blockUser, getUsers, type User } from "@/services/userServi
 import UserEdit from "./UserEdit";
 import UserStatusFilter from "./UserStatusFilter";
 import AddUser from "./AddUser";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const UsersPage = () => {
     const [query, setQuery] = useState('');
@@ -12,12 +12,14 @@ export const UsersPage = () => {
     const [users, setUsers] = useState<User[]>([]);
     const [loading, setLoading] = useState(true);
 
+    const navigate = useNavigate();
+
     const [selectedUser, setSelectedUser] = useState<User | null>(null);
 
     const [showEditModal, setShowEditModal] = useState(false);
     useEffect(() => {
         const fetchUsers = async () => {
-            const data = await getUsers();
+            const data = await getUsers(navigate);
             setUsers(data);
             setLoading(false);
         };
@@ -35,7 +37,7 @@ export const UsersPage = () => {
 
     const handleBlock = async (id: string) => {
         try {
-            const success = await blockUser(id);
+            const success = await blockUser(id, navigate);
             if (success) {
                 alert('User blocked successfully');
                 window.location.reload();
@@ -47,7 +49,7 @@ export const UsersPage = () => {
 
     const handleActive = async (id: string) => {
         try {
-            const success = await activeUser(id);
+            const success = await activeUser(id, navigate);
             if (success) {
                 alert('User actived successfully');
                 window.location.reload();
@@ -58,7 +60,7 @@ export const UsersPage = () => {
     };
     // mt-4 ml-4 mr-4 mb-4 rounded-xl overflow-auto bg-white
     return (
-        <div className="bg-white w-full rounded-xl flex flex-col h-full flex-1 overflow-auto shadow-">
+        <div className="bg-white w-full rounded-xl flex flex-col h-auto flex-1">
             <div className="flex flex-row items-center p-4 relative">
                 <SearchUser value={query} placeholder="Искать по ФИО | ел.почты | пасспорт данный" onChange={setQuery} />
                 <UserStatusFilter value={status} onChange={setStatus} />
