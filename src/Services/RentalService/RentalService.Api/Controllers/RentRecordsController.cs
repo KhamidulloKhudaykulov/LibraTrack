@@ -18,7 +18,6 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize]
     public async Task<IActionResult> Post([FromBody] GenerateRentCommand command)
     {
         var result = await _sender.Send(command);
@@ -29,7 +28,6 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpGet]
-    [Authorize]
     public async Task<IActionResult> GetAll([FromQuery]GetAllRentsQuery query)
     {
         var result = await _sender.Send(query);
@@ -40,7 +38,6 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpPost("close")]
-    [Authorize]
     public async Task<IActionResult> Close([FromQuery] CloseRentCommand command)
     {
         var result = await _sender.Send(command);
@@ -51,7 +48,6 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpPut("pay")]
-    [Authorize]
     public async Task<IActionResult> Pay([FromQuery] PayRentCommand command)
     {
         var result = await _sender.Send(command);
@@ -62,7 +58,6 @@ public class RentRecordsController : ControllerBase
     }
 
     [HttpPut("cancel")]
-    [Authorize]
     public async Task<IActionResult> Cancel([FromQuery] CancelRentCommand command)
     {
         var result = await _sender.Send(command);

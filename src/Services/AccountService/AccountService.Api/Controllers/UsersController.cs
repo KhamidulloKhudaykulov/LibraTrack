@@ -8,7 +8,6 @@ namespace AccountService.Api.Controllers;
 
 [ApiController]
 [Route("api/users")]
-[Authorize]
 public class UsersController : ControllerBase
 {
     private readonly ISender _sender;

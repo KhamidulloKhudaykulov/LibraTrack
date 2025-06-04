@@ -1,0 +1,125 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: HMDL2003
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./create_extra_db.sql:/docker-entrypoint-initdb.d/create_extra_db.sql
+    networks:
+      - libratrack
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment: 
+      - PGADMIN_DEFAULT_EMAIL=xudaykulov123@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=0802
+    ports:
+      - "5051:80"
+    networks:
+      - libratrack
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - libratrack
+
+  api-gateway:
+    build: ./src/ApiGateway
+    ports:
+      - "5203:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - libratrack
+
+  accountservice:
+    build: ./src/Services/AccountService
+    ports:
+      - "5278:8080"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Username=postgres;Password=HMDL2003;Database=LibraTrack.Account
+      - RabbitMqSettings__Host=rabbitmq
+
+  bookservice:
+    build: ./src/Services/BookService
+    ports:
+      - "5037:8082"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Username=postgres;Password=HMDL2003;Database=LibraTrack.Book
+  rentalservice:
+    build: ./src/Services/RentalService
+    ports:
+      - "5242:8083"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Username=postgres;Password=HMDL2003;Database=LibraTrack.RentRecord
+
+  inventoryservice:
+    build: ./src/Services/InventoryService
+    ports:
+      - "5008:8084"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Username=postgres;Password=HMDL2003;Database=LibraTrack.Inventory
+
+  adminpanelservice:
+    build: ./src/Admin
+    ports:
+      - "5097:8085"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Username=postgres;Password=HMDL2003;Database=LibraTrack.AdminPanel
+
+  identityservice:
+    build: ./src/Identity
+    ports:
+      - "5088:8086"
+    networks:
+      - libratrack
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+volumes:
+  pgdata:
+
+networks:
+  libratrack:
+    driver: bridge

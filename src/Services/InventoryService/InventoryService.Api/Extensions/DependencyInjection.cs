@@ -6,9 +6,9 @@ public static class DependencyInjection
     {
         services.AddCors(options =>
         {
-            options.AddPolicy("AllowLocalhost5173", policy =>
+            options.AddPolicy("AllowLocalhost3000", policy =>
             {
-                policy.WithOrigins("http://localhost:5173")
+                policy.WithOrigins("http://localhost:3000")
                       .AllowAnyHeader()
                       .AllowAnyMethod()
                       .AllowCredentials(); // agar cookie yoki auth token yuborsangiz

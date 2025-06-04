@@ -9,7 +9,6 @@ import InventoryArrivalsPage from './components/Inventories/InventoryPage';
 import RootLayout from './components/layouts/RootLayout';
 import StockBalancePage from './components/Inventories/StockBalancePage';
 import LoginPage from './components/Login/LoginPage';
-// import { PrivateRoute } from './components/layouts/PrivateRoute';
 
 const App: React.FC = () => {
   return (

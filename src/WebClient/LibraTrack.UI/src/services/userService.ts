@@ -19,7 +19,7 @@ export type AddUserCommand = {
 
 export async function getUsers(navigate: NavigateFunction): Promise<User[]> {
   try {
-    const response = await fetch("https://localhost:7036/users-api/api/users", {
+    const response = await fetch("http://localhost:5203/users-api/api/users", {
       method: "GET",
       credentials: "include",
       headers: {
@@ -46,8 +46,9 @@ export async function getUsers(navigate: NavigateFunction): Promise<User[]> {
 
 export async function blockUser(id: string, navigate: NavigateFunction): Promise<boolean> {
   try {
-    const response = await fetch(`https://localhost:7287/api/users/block?id=${id}`, {
+    const response = await fetch(`http://localhost:5203/users-api/api/users/block?id=${id}`, {
       method: 'PATCH',
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -72,8 +73,9 @@ export async function blockUser(id: string, navigate: NavigateFunction): Promise
 
 export async function activeUser(id: string, navigate: NavigateFunction): Promise<boolean> {
   try {
-    const response = await fetch(`https://localhost:7287/api/users/active?id=${id}`, {
+    const response = await fetch(`http://localhost:5203/users-api/api/users/active?id=${id}`, {
       method: 'PATCH',
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -108,9 +110,9 @@ export async function editUser(user: User, navigate: NavigateFunction): Promise<
       phoneNumber: user.phoneNumber,
     });
 
-    const response = await fetch(`https://localhost:7287/api/users/update?${queryParams.toString()}`, {
+    const response = await fetch(`http://localhost:5203/users-api/api/users/update?${queryParams.toString()}`, {
       method: "PUT",
-      credentials: "include"
+      credentials: "include",
     });
 
     if (response.status === 401) {
@@ -132,8 +134,9 @@ export async function editUser(user: User, navigate: NavigateFunction): Promise<
 
 export async function addUser(command: AddUserCommand, navigate: NavigateFunction) {
   try {
-    const response = await fetch("https://localhost:7287/api/users", {
+    const response = await fetch("http://localhost:5203/users-api/api/users", {
       method: "POST",
+      credentials: "include",
       headers: {
         "Content-Type": "application/json",
       },

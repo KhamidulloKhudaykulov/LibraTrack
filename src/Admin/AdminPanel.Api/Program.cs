@@ -1,4 +1,6 @@
 using AdminPanel.Api.Extensions;
+using AdminPanel.Api.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,18 +14,27 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddServices(builder.Configuration);
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8085);
+});
+
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+
+app.MapOpenApi();
+app.UseSwagger();
+app.UseSwaggerUI();
+
+using (var scope = app.Services.CreateScope())
 {
-    app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
 }
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowLocalhost5173");
+app.UseCors("AllowLocalhost3000");
 
 app.UseAuthentication();
 

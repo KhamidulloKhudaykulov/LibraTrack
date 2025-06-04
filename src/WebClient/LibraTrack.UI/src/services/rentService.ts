@@ -20,8 +20,9 @@ export type AddRentCommand = {
 
 export async function getRents(): Promise<Rent[]> {
   try {
-    const response = await fetch('https://localhost:7012/api/rents', {
+    const response = await fetch('http://localhost:5203/rentals-api/api/rents', {
       method: 'GET',
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -41,8 +42,9 @@ export async function getRents(): Promise<Rent[]> {
 
 export async function getPriceRents(): Promise<string> {
   try {
-    const response = await fetch('https://localhost:7012/api/rents', {
+    const response = await fetch('http://localhost:5203/rentals-api/api/rents', {
       method: 'GET',
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -71,8 +73,9 @@ export async function addRent(command: AddRentCommand) {
       startDate: command.startDate.toISOString(),
       endDate: command.endDate.toISOString()
     };
-    const response = await fetch("https://localhost:7012/api/rents", {
+    const response = await fetch("http://localhost:5203/rentals-api/api/rents", {
       method: "POST",
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json'
       },
@@ -92,8 +95,9 @@ export async function addRent(command: AddRentCommand) {
 
 export async function closeRent(id: string) {
   try {
-    const response = await fetch(`https://localhost:7012/api/rents/close?rentId=${id}`, {
+    const response = await fetch(`http://localhost:5203/rentals-api/api/rents/close?rentId=${id}`, {
       method: "POST",
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json'
       }
@@ -110,8 +114,9 @@ export async function closeRent(id: string) {
 
 export async function cancelRent(id: string) {
   try {
-    const response = await fetch(`https://localhost:7012/api/rents/cancel?rentId=${id}`, {
+    const response = await fetch(`http://localhost:5203/rentals-api/api/rents/cancel?rentId=${id}`, {
       method: "PUT",
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json'
       }
@@ -128,8 +133,9 @@ export async function cancelRent(id: string) {
 
 export async function payRent(id: string) {
   try {
-    const response = await fetch(`https://localhost:7012/api/rents/pay?rentId=${id}`, {
+    const response = await fetch(`http://localhost:5203/rentals-api/api/rents/pay?rentId=${id}`, {
       method: "PUT",
+      credentials: "include",
       headers: {
         'Content-Type': 'application/json'
       }

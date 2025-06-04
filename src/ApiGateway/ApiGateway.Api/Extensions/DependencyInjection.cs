@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
+using Yarp.ReverseProxy.Model;
 
 namespace ApiGateway.Api.Extensions;
 
@@ -10,6 +12,8 @@ public static class DependencyInjection
     {
         services.AddReverseProxy()
             .LoadFromConfig(configuration.GetSection("ReverseProxy"));
+
+        services.AddAuthorization();
 
         services.AddAuthentication(options =>
         {
@@ -33,15 +37,26 @@ public static class DependencyInjection
                     {
                         context.Token = context.Request.Cookies["access-token"];
                         return Task.CompletedTask;
+                    },
+                    OnTokenValidated = context =>
+                    {
+                        var claims = context.Principal;
+
+                        if (claims != null)
+                        {
+                            var userId = claims.FindFirst("unique-name")?.Value;
+                        }
+
+                        return Task.CompletedTask;
                     }
                 };
             });
 
         services.AddCors(options =>
         {
-            options.AddPolicy("AllowLocalhost5173", policy =>
+            options.AddPolicy("AllowLocalhost3000", policy =>
             {
-                policy.WithOrigins("http://localhost:5173")
+                policy.WithOrigins("http://localhost:3000")
                       .AllowAnyHeader()
                       .AllowAnyMethod()
                       .AllowCredentials(); // agar cookie yoki auth token yuborsangiz

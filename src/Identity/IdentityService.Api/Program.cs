@@ -8,6 +8,11 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<IJwtService, JwtService>();
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8086);
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

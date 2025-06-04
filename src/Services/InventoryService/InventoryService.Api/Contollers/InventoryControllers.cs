@@ -1,6 +1,7 @@
 ﻿using InventoryService.Application.UseCases.Items.Commands;
 using InventoryService.Application.UseCases.Items.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InventoryService.Api.Contollers;

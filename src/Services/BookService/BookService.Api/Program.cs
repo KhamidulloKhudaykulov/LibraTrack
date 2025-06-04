@@ -21,6 +21,11 @@ builder.Services.AddApplication();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8082);
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -30,11 +35,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
+
+//app.UseHttpsRedirection();
 
 app.MapControllers();
-
-app.UseCors("AllowLocalhost5173");
 
 app.MapGrpcService<BookGrpcServiceClient>();
 

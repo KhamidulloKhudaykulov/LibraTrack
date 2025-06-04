@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{479E5576-FF41-435F-ABCC-B2801E9CEC15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountService", "AccountService", "{A7528FFC-579B-47C6-9FE6-B0A77455958C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Services\AccountService\Dockerfile = src\Services\AccountService\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Api", "src\Services\AccountService\AccountService.Api\AccountService.Api.csproj", "{25D2BF54-F883-45DA-B744-C52D90CD0C40}"
 EndProject
@@ -20,6 +23,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Persistence", "src\Services\AccountService\AccountService.Persistence\AccountService.Persistence.csproj", "{C4116FBA-4BCD-44E6-9561-12B85968D378}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookService", "BookService", "{7B363B24-DC1D-4D33-9B62-88DD8D0BAE09}"
+	ProjectSection(SolutionItems) = preProject
+		src\Services\BookService\Dockerfile = src\Services\BookService\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService.Api", "src\Services\BookService\BookService.Api\BookService.Api.csproj", "{EF2B9BA7-675A-4646-91D0-28185CB48D82}"
 EndProject
@@ -32,6 +38,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService.Persistence", "src\Services\BookService\BookService.Persistence\BookService.Persistence.csproj", "{F8D783D1-0AE4-4E7F-AB8C-904EA47E2BE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RentalService", "RentalService", "{A1E9A90C-B7F5-4D5D-A773-69AC7A97E4B9}"
+	ProjectSection(SolutionItems) = preProject
+		src\Services\RentalService\Dockerfile = src\Services\RentalService\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalService.Api", "src\Services\RentalService\RentalService.Api\RentalService.Api.csproj", "{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}"
 EndProject
@@ -56,14 +65,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Persistence", "src\Services\NotificationService\NotificationService.Persistence\NotificationService.Persistence.csproj", "{1C56A8F0-C27B-44C4-94D2-67A569D8D148}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{6971E6C5-6CF7-4EAF-9132-43F68CACB947}"
+	ProjectSection(SolutionItems) = preProject
+		src\Admin\Dockerfile = src\Admin\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminPanel.Api", "src\Admin\AdminPanel.Api\AdminPanel.Api.csproj", "{3D7F54BD-A90F-4ED0-A7DD-46136176B629}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{3637E957-BC7E-4B87-A264-AE124234F30B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Identity\Dockerfile = src\Identity\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Api", "src\Identity\IdentityService.Api\IdentityService.Api.csproj", "{FC8A87D3-DDD6-4D2E-A864-C4181A2B5048}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryService", "InventoryService", "{383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}"
+	ProjectSection(SolutionItems) = preProject
+		src\Services\InventoryService\Dockerfile = src\Services\InventoryService\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Api", "src\Services\InventoryService\InventoryService.Api\InventoryService.Api.csproj", "{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}"
 EndProject
@@ -76,8 +94,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Persistence", "src\Services\InventoryService\InventoryService.Persistence\InventoryService.Persistence.csproj", "{85BF447A-5BAC-4E10-A561-AE529CE477D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}"
+	ProjectSection(SolutionItems) = preProject
+		src\ApiGateway\Dockerfile = src\ApiGateway\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.Api", "src\ApiGateway\ApiGateway.Api\ApiGateway.Api.csproj", "{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}"
+	ProjectSection(SolutionItems) = preProject
+		create_extra_db.sql = create_extra_db.sql
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

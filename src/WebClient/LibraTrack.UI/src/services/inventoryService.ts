@@ -22,8 +22,9 @@ export interface StockBalance {
 
 export async function getInventoryItems() {
     try {
-        const response = await fetch('https://localhost:7096/api/inventory', {
+        const response = await fetch('http://localhost:5203/inventory-api/api/inventory', {
             method: 'GET',
+            credentials: "include",
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -43,8 +44,9 @@ export async function getInventoryItems() {
 
 export async function getInventoryStockBalances() {
     try {
-        const response = await fetch('https://localhost:7096/api/inventory/stockBalances', {
+        const response = await fetch('http://localhost:5203/inventory-api/api/inventory/stockBalances', {
             method: 'GET',
+            credentials: "include",
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -64,8 +66,9 @@ export async function getInventoryStockBalances() {
 
 export async function addItemToInventory(command: AddItemCommand) {
     try {
-        const response = await fetch("https://localhost:7096/api/inventory", {
+        const response = await fetch("http://localhost:5203/inventory-api/api/inventory", {
             method: "POST",
+            credentials: "include",
             headers: {
                 'Content-Type': 'application/json',
             },

@@ -3,44 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\xuday\\Desktop\\LibraTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|solutionrelative:src\\services\\bookservice\\bookservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|C:\\Users\\xuday\\Desktop\\LibraTrack\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|solutionrelative:src\\services\\bookservice\\bookservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getstockbalancesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getstockbalancesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\application\\requests\\getverifiedadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\application\\requests\\getverifiedadminrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|C:\\Users\\xuday\\Desktop\\LibraTrack\\create_extra_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|solutionrelative:create_extra_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}|InventoryService{383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}|InventoryService{383EAA5B-07B9-43EB-ADB1-DA74A1A14B7F}|solutionrelative:src\\Services\\InventoryService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7528FFC-579B-47C6-9FE6-B0A77455958C}|AccountService{A7528FFC-579B-47C6-9FE6-B0A77455958C}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7528FFC-579B-47C6-9FE6-B0A77455958C}|AccountService{A7528FFC-579B-47C6-9FE6-B0A77455958C}|solutionrelative:src\\Services\\AccountService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF2B9BA7-675A-4646-91D0-28185CB48D82}|src\\Services\\BookService\\BookService.Api\\BookService.Api.csproj|solutionrelative:src\\services\\bookservice\\bookservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E9A90C-B7F5-4D5D-A773-69AC7A97E4B9}|RentalService{A1E9A90C-B7F5-4D5D-A773-69AC7A97E4B9}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1E9A90C-B7F5-4D5D-A773-69AC7A97E4B9}|RentalService{A1E9A90C-B7F5-4D5D-A773-69AC7A97E4B9}|solutionrelative:src\\Services\\RentalService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\middlewares\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\middlewares\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6971E6C5-6CF7-4EAF-9132-43F68CACB947}|Admin{6971E6C5-6CF7-4EAF-9132-43F68CACB947}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6971E6C5-6CF7-4EAF-9132-43F68CACB947}|Admin{6971E6C5-6CF7-4EAF-9132-43F68CACB947}|solutionrelative:src\\Admin\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}|ApiGateway{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}|ApiGateway{E688E4D2-2882-40C0-B1CB-93DBB219DEBE}|solutionrelative:src\\ApiGateway\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8A87D3-DDD6-4D2E-A864-C4181A2B5048}|src\\Identity\\IdentityService.Api\\IdentityService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\identity\\identityservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC8A87D3-DDD6-4D2E-A864-C4181A2B5048}|src\\Identity\\IdentityService.Api\\IdentityService.Api.csproj|solutionrelative:src\\identity\\identityservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3637E957-BC7E-4B87-A264-AE124234F30B}|Identity{3637E957-BC7E-4B87-A264-AE124234F30B}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3637E957-BC7E-4B87-A264-AE124234F30B}|Identity{3637E957-BC7E-4B87-A264-AE124234F30B}|solutionrelative:src\\Identity\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B363B24-DC1D-4D33-9B62-88DD8D0BAE09}|BookService{7B363B24-DC1D-4D33-9B62-88DD8D0BAE09}|C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B363B24-DC1D-4D33-9B62-88DD8D0BAE09}|BookService{7B363B24-DC1D-4D33-9B62-88DD8D0BAE09}|solutionrelative:src\\Services\\BookService\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CC0E16-4613-49FC-B1A8-E0B94D54FE13}|src\\ApiGateway\\ApiGateway.Api\\ApiGateway.Api.csproj|solutionrelative:src\\apigateway\\apigateway.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\admin\\adminpanel.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D7F54BD-A90F-4ED0-A7DD-46136176B629}|src\\Admin\\AdminPanel.Api\\AdminPanel.Api.csproj|solutionrelative:src\\admin\\adminpanel.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25D2BF54-F883-45DA-B744-C52D90CD0C40}|src\\Services\\AccountService\\AccountService.Api\\AccountService.Api.csproj|solutionrelative:src\\services\\accountservice\\accountservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.api\\contollers\\inventorycontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9DA3D4C-7AA6-4B90-A7E1-CA37393FF585}|src\\Services\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.api\\contollers\\inventorycontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getstockbalancesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getstockbalancesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85BF447A-5BAC-4E10-A561-AE529CE477D4}|src\\Services\\InventoryService\\InventoryService.Persistence\\InventoryService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.persistence\\repositories\\stockbalancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{5BDB27EE-0CFF-44FD-B930-EBA17AFCD54C}|src\\Services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.application\\usecases\\items\\queries\\getavailablequantityfromstockbalancequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{437CD73D-518F-4F68-8A1C-8AE32BEBEDF6}|src\\Services\\RentalService\\RentalService.Api\\RentalService.Api.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.api\\controllers\\rentrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\commands\\generaterentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93248178-CEE8-48AA-824B-67FD63F4C972}|src\\Services\\RentalService\\RentalService.Application\\RentalService.Application.csproj|solutionrelative:src\\services\\rentalservice\\rentalservice.application\\usecases\\rentalrecords\\commands\\generaterentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,6 +205,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{85BF447A-5BAC-4E10-A561-AE529CE477D4}|src\\Services\\InventoryService\\InventoryService.Persistence\\InventoryService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\inventoryservice\\inventoryservice.persistence\\migrations\\20250530154440_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85BF447A-5BAC-4E10-A561-AE529CE477D4}|src\\Services\\InventoryService\\InventoryService.Persistence\\InventoryService.Persistence.csproj|solutionrelative:src\\services\\inventoryservice\\inventoryservice.persistence\\migrations\\20250530154440_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\accountservice\\accountservice.persistence\\migrations\\20250601165625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4116FBA-4BCD-44E6-9561-12B85968D378}|src\\Services\\AccountService\\AccountService.Persistence\\AccountService.Persistence.csproj|solutionrelative:src\\services\\accountservice\\accountservice.persistence\\migrations\\20250601165625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D783D1-0AE4-4E7F-AB8C-904EA47E2BE4}|src\\Services\\BookService\\BookService.Persistence\\BookService.Persistence.csproj|c:\\users\\xuday\\desktop\\libratrack\\src\\services\\bookservice\\bookservice.persistence\\migrations\\20250602170432_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D783D1-0AE4-4E7F-AB8C-904EA47E2BE4}|src\\Services\\BookService\\BookService.Persistence\\BookService.Persistence.csproj|solutionrelative:src\\services\\bookservice\\bookservice.persistence\\migrations\\20250602170432_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|C:\\Users\\xuday\\Desktop\\LibraTrack\\create_extra_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{0A0EECF9-F984-4919-82BC-4C8DF208D3B3}|solutionrelative:create_extra_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,119 +226,518 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwCkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T09:03:41.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
-              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T09:03:08.159Z",
+              "WhenOpened": "2025-06-04T15:32:16.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:32:05.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-01T16:25:13.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
               "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
               "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-01T08:59:38.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAkAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:09:25.397Z",
+              "WhenOpened": "2025-06-01T11:48:41.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:46:04.473Z",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T14:59:22.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:58:03.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
-              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:06:51.111Z",
+              "WhenOpened": "2025-06-02T17:15:27.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T17:03:05.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
               "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T15:06:37.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:09:25.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T15:01:33.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Program.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:06:51.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "GetVerifiedAdminRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Application\\Requests\\GetVerifiedAdminRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:47:09.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:58:03.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "create_extra_db.sql ",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\create_extra_db.sql",
+              "RelativeDocumentMoniker": "create_extra_db.sql",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\create_extra_db.sql",
+              "RelativeToolTip": "create_extra_db.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T17:00:02.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\Dockerfile",
+              "RelativeToolTip": "src\\Services\\InventoryService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-04T15:02:40.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\Dockerfile",
+              "RelativeToolTip": "src\\Services\\AccountService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T16:16:03.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T15:01:48.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T14:59:13.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T16:23:43.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T17:03:17.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\Dockerfile",
+              "RelativeToolTip": "src\\Services\\RentalService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-04T14:55:15.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:54:49.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Middlewares\\AuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Middlewares\\AuthenticationMiddleware.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Middlewares\\AuthenticationMiddleware.cs",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Middlewares\\AuthenticationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:26:15.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:03:08.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T18:59:44.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Admin\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\Dockerfile",
+              "RelativeToolTip": "src\\Admin\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T19:08:13.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T16:32:40.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:46:04.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\Dockerfile",
+              "RelativeToolTip": "src\\ApiGateway\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T18:23:39.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Identity\\IdentityService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\IdentityService.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Identity\\IdentityService.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T19:45:36.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Identity\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Identity\\Dockerfile",
+              "RelativeToolTip": "src\\Identity\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T19:35:17.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\Dockerfile",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\Dockerfile",
+              "RelativeToolTip": "src\\Services\\BookService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T16:42:38.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:03:41.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Admin\\AdminPanel.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Admin\\AdminPanel.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Admin\\AdminPanel.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T19:00:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T17:55:21.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250602170432_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Persistence\\Migrations\\20250602170432_Initial.cs",
+              "RelativeDocumentMoniker": "src\\Services\\BookService\\BookService.Persistence\\Migrations\\20250602170432_Initial.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\BookService\\BookService.Persistence\\Migrations\\20250602170432_Initial.cs",
+              "RelativeToolTip": "src\\Services\\BookService\\BookService.Persistence\\Migrations\\20250602170432_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:04:33.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250601165625_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250601165625_Initial.cs",
+              "RelativeDocumentMoniker": "src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250601165625_Initial.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250601165625_Initial.cs",
+              "RelativeToolTip": "src\\Services\\AccountService\\AccountService.Persistence\\Migrations\\20250601165625_Initial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:56:25.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventoryControllers.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
+              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
+              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:04:20.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RentRecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:54:46.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:48:32.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "GetStockBalanceResponse.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
@@ -218,12 +745,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Contracts\\GetStockBalanceResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:27:00.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T07:27:00.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 39,
               "Title": "GetStockBalancesQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
@@ -231,25 +757,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockBalancesQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:18:04.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T07:18:04.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InventoryControllers.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
-              "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
-              "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Api\\Contollers\\InventoryControllers.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwE8AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:04:20.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 40,
               "Title": "StockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
@@ -257,12 +769,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Persistence\\Repositories\\StockBalanceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:44:29.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:44:29.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 41,
               "Title": "RemoveStockFromInventoryCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
@@ -270,12 +781,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\RemoveStockFromInventoryCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:57:07.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:57:07.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 43,
               "Title": "StockBalance.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
@@ -283,12 +793,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Domain\\Entities\\StockBalance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:49:26.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:49:26.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 44,
               "Title": "GetStockEntriesFromInventoryQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
@@ -296,12 +805,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetStockEntriesFromInventoryQueryHandler.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBQwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:03:36.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T16:03:36.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 45,
               "Title": "IStockBalanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
@@ -309,12 +817,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Domain\\Repositories\\IStockBalanceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:50:17.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:50:17.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 46,
               "Title": "GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
@@ -322,25 +829,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Queries\\GetAvailableQuantityFromStockBalanceQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T06:18:06.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T06:18:06.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RentRecordsController.cs",
-              "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
-              "ToolTip": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
-              "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Api\\Controllers\\RentRecordsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T06:54:46.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 48,
               "Title": "ReceiveStockCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
@@ -348,12 +841,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\ReceiveStockCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:46:58.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:46:58.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 47,
               "Title": "GenerateRentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
@@ -361,12 +853,11 @@
               "RelativeToolTip": "src\\Services\\RentalService\\RentalService.Application\\UseCases\\RentalRecords\\Commands\\GenerateRentCommandHandler.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAD4v0wAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T06:44:27.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T06:44:27.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 49,
               "Title": "AddQuantityCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
@@ -374,12 +865,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Application\\UseCases\\Items\\Commands\\AddQuantityCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:05:25.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T16:05:25.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "20250530154440_Initial.cs",
               "DocumentMoniker": "C:\\Users\\xuday\\Desktop\\LibraTrack\\src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
               "RelativeDocumentMoniker": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
@@ -387,8 +877,11 @@
               "RelativeToolTip": "src\\Services\\InventoryService\\InventoryService.Persistence\\Migrations\\20250530154440_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:44:40.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:44:40.896Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

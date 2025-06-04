@@ -21,7 +21,6 @@ public class AdminsController : ControllerBase
         _getVerifiedAdminRequestHandler = getVerifiedAdminRequestHandler;
     }
 
-    [Authorize]
     [HttpPost]
     public async Task<IActionResult> Post(CreateAdminRequest request)
     {
@@ -36,7 +35,7 @@ public class AdminsController : ControllerBase
         }
     }
 
-    [HttpGet]
+    [HttpGet("sign-in")]
     public async Task<IActionResult> Verify([FromQuery]GetVerifiedAdminRequest request)
     {
         try
@@ -46,8 +45,8 @@ public class AdminsController : ControllerBase
             Response.Cookies.Append("access-token", token, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = true,
-                SameSite = SameSiteMode.None,
+                Secure = false,
+                SameSite = SameSiteMode.Lax,
                 Expires = DateTime.UtcNow.AddDays(1)
             });
 
